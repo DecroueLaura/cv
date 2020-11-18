@@ -52,9 +52,6 @@ table {
 body{
 	width: 100%;
 }
-.page-body{
-	margin-left: 12%;
-}
 .section-apropos{
 	display: block;
 	height: 20em;
@@ -65,32 +62,34 @@ body{
 	font-size: 24px;
 	margin: 15px;
 }
+#reduir{
+	width: 85%;
+}
 /* nav */
 .nav-mobile{
 	display: none;
 }
 .navbar{
 	height: 100%;
-	width: 12%;
+	width: 0;
 	position: fixed;
 	z-index: 1;
 	top:0;
 	left:0;
-	background-color: #9443AB;
+	background-color: #EDF6DE;
 	overflow-x: hidden;
-	padding-top: 20px;
 	transition: 0.5s;
 }
 .navbar a{
 	padding: 6px 8px 6px 16px;
 	text-decoration: none;
-	font-size: 15px;
-	color: black;
+	font-size: 12px;
+	color: #9443AB;
 	display: block;
 	transition: 0.3s;
 }
 .navbar a:hover{
-	color: #f1f1f1;
+	font-weight: bolder;
 }
 .navbar .closeNav{
 	position: absolute;
@@ -100,18 +99,21 @@ body{
 }
 .navbar ul{
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
 	flex-wrap: wrap;
 	justify-content: center;
+	text-align:center;
+
 }
 .navbar ul li{
-	padding: 10px 25px;
 	list-style-type: none;
+	width: 100%;
 }
+
 span{
-	display: revert;
 	position: fixed;
-	margin: 8px;
+	margin: 6px;
+	left: 55px;
 }
 /* fin nav */
 /* header */
@@ -122,18 +124,22 @@ header{
 	background-image: url(../img/banniere.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
-	height: 40em;
+	height: 42em;
 }
 .opacity{
 	position: relative;
-	top: 475px;
+	top: 450px;
+}
+@font-face {
+	font-family: 'Playlist-Script';
+	src: url("../police/Playlist-Script.otf");
 }
 header>div>h1{
 	opacity: 1;
 	color: #9443AB;
 	text-align: center;
-	font-size: 80px;
-	font-family: 'Homemade Apple', cursive;
+	font-size: 150px;
+	font-family: 'Playlist-Script';
 }
 header>div>h2{
 	opacity: 1;
@@ -161,10 +167,10 @@ header>div>h2{
 	display: block;
 }
 .titre-competences{
-	margin:25px;
+	margin:50px;
 }
 .titre-expriences{
-	margin:25px;
+	margin:50px;
 }
 
 .text li{
@@ -207,7 +213,7 @@ header>div>h2{
 }
 
 .col .width{
-	width: 50%%
+	width: 50%;
 }
 .col{
 	display: inline-block;
@@ -279,13 +285,15 @@ footer{
 	.contact{
 		display: none;
 	}
+	.navbar a{
+		padding:0;
+	}
 	.navbar{
-		padding-top: 5px;
 		width: 12%;
 	}
 	.nav-mobile{
 		display: block;
-		margin:0px 5px;
+		/* width: 100%; */
 	}
 	.nav-pc{
 		display: none;
@@ -293,6 +301,13 @@ footer{
 	.navmobile{
 		display: block;
 		width: 40px;
+	}
+	#nav img{
+		width: 100%;
+	}
+	span{
+		margin: 2px;
+		left: 0;
 	}
 	.flex{
 		display: flex;
@@ -327,7 +342,7 @@ footer{
 		display: block;
 	}
 	.col .width{
-		width: 50%
+		width: 30%
 	}
 	.col{
 		display: block;
