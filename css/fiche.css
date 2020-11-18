@@ -1,0 +1,341 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* reset.css debut */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* reset.css fin */
+
+/* mon codage */
+body{
+	width: 100%;
+}
+.page-body{
+	margin-left: 12%;
+}
+.section-apropos{
+	display: block;
+	height: 20em;
+}
+.titre{
+	color: #9443AB;
+	text-align: center;
+	font-size: 24px;
+	margin: 15px;
+}
+/* nav */
+.nav-mobile{
+	display: none;
+}
+.navbar{
+	height: 100%;
+	width: 12%;
+	position: fixed;
+	z-index: 1;
+	top:0;
+	left:0;
+	background-color: #9443AB;
+	overflow-x: hidden;
+	padding-top: 20px;
+	transition: 0.5s;
+}
+.navbar a{
+	padding: 6px 8px 6px 16px;
+	text-decoration: none;
+	font-size: 15px;
+	color: black;
+	display: block;
+	transition: 0.3s;
+}
+.navbar a:hover{
+	color: #f1f1f1;
+}
+.navbar .closeNav{
+	position: absolute;
+	top: 0;
+	right: 25px;
+	margin-left: 50px;
+}
+.navbar ul{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.navbar ul li{
+	padding: 10px 25px;
+	list-style-type: none;
+}
+span{
+	display: revert;
+	position: fixed;
+	margin: 8px;
+}
+/* fin nav */
+/* header */
+.navmobile{
+	display: none;
+}
+header{
+	background-image: url(../img/banniere.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+	height: 40em;
+}
+.opacity{
+	position: relative;
+	top: 475px;
+}
+header>div>h1{
+	opacity: 1;
+	color: #9443AB;
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Homemade Apple', cursive;
+}
+header>div>h2{
+	opacity: 1;
+	text-align: center;
+	font-size: 35px;
+}
+.vide2{
+	width: 100%;
+	height: 125px;
+}
+/* fin du header */
+/* 1er section A PROPOS */
+.section1{
+	text-align: center;
+}
+.titre-a-propos{
+	margin:50px;
+}
+.section-apropos p{
+	text-align: center;
+}
+/* fin 1er section */
+/* section2 COMPETENCES/EXPERIENCES */
+.competences{
+	display: block;
+}
+.titre-competences{
+	margin:25px;
+}
+.titre-expriences{
+	margin:25px;
+}
+
+.text li{
+	margin:20px;
+}
+.left{
+	display: inline-block;
+	width: 33%;
+}
+.right{
+	display: inline-block;
+	width: 55%;
+	text-align: center;
+}
+.ex h2{
+	font-weight: bolder;
+	margin:15px 0px;
+	color: #9443AB;
+}
+.ex{
+	margin: 50px 0px;
+}
+/* fin section 2 */
+/* formation */
+.titre-formation{
+	margin:50px;
+}
+.text h2{
+	font-weight: bolder;
+	margin:15px 0px;
+	color:#9443AB;
+}
+.text {
+	text-align: center;
+}
+/* fin formation */
+/* section 3 INFORMATIQUE */
+.titre-informatique{
+	margin:50px;
+}
+
+.col .width{
+	width: 50%%
+}
+.col{
+	display: inline-block;
+	width: 33%;
+	text-align: center;
+}
+.ta-center h3{
+	font-weight: bolder;
+}
+/* fin section3 */
+/* section 4 cv */
+.cv{
+	margin: 150px 0px;
+}
+.row .imgcv{
+	width: 100%;
+	text-align: center;
+}
+.imgcv h2{
+	margin: 50px;
+}
+/* fin section 4 */
+/* section 5 LOISIR */
+.container h3{
+	text-align: center;
+	margin: 10px;
+}
+.leftphoto{
+	width: 50%;
+	float: left;
+}
+.photos h3{
+	font-weight: bolder;
+}
+.rightdessin{
+	width: 50%;
+	float: right;
+}
+.dessins{
+	font-weight: bolder;
+}
+.titre-portfolio{
+	margin: 50px;
+}
+/* fin loisir */
+/* contact */
+.contact{
+	margin: 150px 0px;
+}
+.telephone img{
+	width: 10%;
+}
+.email img{
+	width: 11%;
+}
+/* contact */
+footer{
+
+}
+
+
+@media screen and (max-width:480px) {
+	body{
+		margin:0;
+	}
+	.cv{
+		display: none;
+	}
+	.contact{
+		display: none;
+	}
+	.navbar{
+		padding-top: 5px;
+		width: 12%;
+	}
+	.nav-mobile{
+		display: block;
+		margin:0px 5px;
+	}
+	.nav-pc{
+		display: none;
+	}
+	.navmobile{
+		display: block;
+		width: 40px;
+	}
+	.flex{
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around;
+		width: 100%;
+		position: fixed;
+		z-index: 1;
+		top: 0;
+		overflow-x: hidden;
+		padding-top: 5px;
+	}
+	.navmobile>ul{
+		list-style-type: none;
+	}
+
+	header>div>h1{
+		font-size: 35px;
+	}
+	header>div>h2{
+		font-size: 18px;
+	}
+	.opacity{
+		top: 155px;
+	}
+	header{
+		height: 15em;
+	}
+	.left, .right{
+		width: 100%;
+		display: block;
+	}
+	.col .width{
+		width: 50%
+	}
+	.col{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.row>.photo{
+		width: 100%;
+	}
+
+}
