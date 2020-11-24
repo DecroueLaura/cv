@@ -1,25 +1,24 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name='viewport' content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <title>Decroue-Laura</title>
-    <link rel="stylesheet" href="css/fiche.css">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com">
-    <link href = "https://fonts.googleapis.com/css2? family = Fait maison + Apple & display = swap" rel = "feuille de style">
-    <script src="js/nav.js" charset="utf-8"></script>
-    <!-- <a href="https://icons8.com/icon/NDIMAFy35qo3/image">Image icon by Icons8</a> -->
-  </head>
-  <body>
-    <nav id="nav" class="navbar" role="navigation">
-      <div class="contener_nav">
-        <ul class="nav">
-          <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="https://img.icons8.com/bubbles/50/000000/cancel.png"/></a></li>
-          <li class="nav-pc"><a href="#apropos">A PROPOS</a></li>
-          <li class="nav-mobile"><a href="#apropos"><img src="https://img.icons8.com/bubbles/50/000000/brown-hair-business-lady-in-red-shirt.png"/></a></li>
-          <li class="nav-pc"><a href="#competences">COMPETENCES/<br>EXPERIENCES</a></li>
-          <li class="nav-mobile"><a href="#competences"><img src="https://img.icons8.com/bubbles/50/000000/development-skill.png"/></a></li>
-          <li class="nav-pc"><a href="#formation">FORMATION</li>
+<head>
+  <meta charset="utf-8">
+  <meta name='viewport' content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <title>Decroue-Laura</title>
+  <link rel="stylesheet" href="css/fiche.css">
+  <link rel = "preconnect" href = "https://fonts.gstatic.com">
+  <link href = "https://fonts.googleapis.com/css2? family = Fait maison + Apple & display = swap" rel = "feuille de style">
+  <!-- <a href="https://icons8.com/icon/NDIMAFy35qo3/image">Image icon by Icons8</a> -->
+</head>
+<body>
+  <nav id="nav" class="navbar" role="navigation">
+    <div class="contener_nav">
+      <ul class="nav">
+        <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="https://img.icons8.com/bubbles/50/000000/cancel.png"/></a></li>
+        <li class="nav-pc"><a href="#apropos">A PROPOS</a></li>
+        <li class="nav-mobile"><a href="#apropos"><img src="https://img.icons8.com/bubbles/50/000000/brown-hair-business-lady-in-red-shirt.png"/></a></li>
+        <li class="nav-pc"><a href="#competences">COMPETENCES/<br>EXPERIENCES</a></li>
+        <li class="nav-mobile"><a href="#competences"><img src="https://img.icons8.com/bubbles/50/000000/development-skill.png"/></a></li>
+        <li class="nav-pc"><a href="#formation">FORMATION</li>
           <li class="nav-mobile"><a href="#formation"><img src="https://img.icons8.com/bubbles/50/000000/graduation-cap.png"/></a></li>
           <li class="nav-pc"><a href="#informatique">INFORMATIQUE</a></li>
           <li class="nav-mobile"><a href="#informatique"><img src="https://img.icons8.com/bubbles/50/000000/laptop.png"/></a></li>
@@ -39,10 +38,10 @@
       <span id="open" onclick="openNav()"><img id="reduir" src="https://img.icons8.com/bubbles/50/000000/menu.png"/></span>
 
       <header id="header" role="banner">
-      <div class="opacity">
-        <h1 class="test">Decroue Laura</h1>
-        <h2 class="test"><strong>Intégratrice web junior</strong></h2>
-      </div>
+        <div class="opacity">
+          <h1 class="test">Decroue Laura</h1>
+          <h2 class="test"><strong>Intégratrice web junior</strong></h2>
+        </div>
       </header>
 
       <div class="page" role="main">
@@ -81,20 +80,20 @@
 
               <div class="right">
                 <h2 class="titre titre-expriences"><strong>EXPERIENCES</strong></h2>
-                  <div class="ex">
-                    <h2>Association Ageval - Valenciennes • 2020-2021</h2>
-                    <p>Atelier Numérique- développement, graphisme, ergonomie et indentité numérique d'un site web.</p>
-                  </div>
-                  <div class="vide1"></div>
-                  <div class="ex">
-                    <h2>Stage: Les Anges Gardien d'Olivier - Velenciennes • 05/2011</h2>
-                    <p>Vente, soin, hygiène, alimentation des animaux.</p>
-                  </div>
-                  <div class="vide1"></div>
-                  <div class="ex">
-                    <h2>Stage: élevage canin professionnel - Corrèze • 05/2011</h2>
-                    <p>Vente, soin, hygiène, alimentation des animaux.</p>
-                  </div>
+                <div class="ex">
+                  <h2>Association Ageval - Valenciennes • 2020-2021</h2>
+                  <p>Atelier Numérique- développement, graphisme, ergonomie et indentité numérique d'un site web.</p>
+                </div>
+                <div class="vide1"></div>
+                <div class="ex">
+                  <h2>Stage: Les Anges Gardien d'Olivier - Velenciennes • 05/2011</h2>
+                  <p>Vente, soin, hygiène, alimentation des animaux.</p>
+                </div>
+                <div class="vide1"></div>
+                <div class="ex">
+                  <h2>Stage: élevage canin professionnel - Corrèze • 05/2011</h2>
+                  <p>Vente, soin, hygiène, alimentation des animaux.</p>
+                </div>
               </div>
             </div>
           </div>
@@ -155,40 +154,644 @@
         <section class="portfolio" id="portfolio">
           <div class="container">
             <h2 class="titre titre-portfolio"><strong>PORTFOLIO</strong></h2>
-            <div class="photos leftphoto">
-              <h3>Photos</h3>
+          </div>
+          <div class="tab">
+            <button id="defaultOpen" class="tablinks" onclick="openCity(event, 'photos')">Photos</button>
+            <button class="tablinks" onclick="openCity(event, 'dessins')">Dessins</button>
+            <button class="tablinks" onclick="openCity(event, 'projet')">Projet Noël</button>
+          </div>
+          <div id="photos" class="tabcontent">
+            <div class="sub">
+              <button id="defaultOpen" class="sublinks" onclick="openCity(event,'fleurs')">Fleurs/Fruit</button>
+              <button class="sublinks" onclick="openCity(event, 'rue')">Rue/Jardin</button>
+              <button class="sublinks" onclick="openCity(event, 'animaux')">Animaux/Insectes</button>
+              <button class="sublinks" onclick="openCity(event, 'street-Art')">Street-Art</button>
+              <button class="sublinks" onclick="openCity(event, 'divers')">Divers</button>
             </div>
-            <div class="dessins  rightdessin">
-              <h3>Dessins</h3>
+            <div class="subcontent" id="fleurs">
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Fleurs-Fruits/img1.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Fleurs-Fruits/img2.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Fleurs-Fruits/img3.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Fleurs-Fruits/img4.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Fleurs-Fruits/img5.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Fleurs-Fruits/img6.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Fleurs-Fruits/img7.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Fleurs-Fruits/img8.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Fleurs-Fruits/img9.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Fleurs-Fruits/img10.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subcontent" id="rue">
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Rue-Jardin/img1.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Rue-Jardin/img2.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Rue-Jardin/img3.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Rue-Jardin/img4.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Rue-Jardin/img5.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Rue-Jardin/img6.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Rue-Jardin/img7.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Rue-Jardin/img8.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subcontent" id="animaux">
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Animaux-Insectes/img1.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Animaux-Insectes/img2.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Animaux-Insectes/img3.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Animaux-Insectes/img4.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Animaux-Insectes/img5.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subcontent" id="street-Art">
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Street-Art/img1.jpeg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Street-Art/img2.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Street-Art/img3.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Street-Art/img4.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Street-Art/img5.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Street-Art/img6.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="subcontent" id="divers">
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Divers/img1.jpg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                    <div class="hexagon-in2" style="background-image: url(img/Divers/img2.jpeg);">
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="lab_item">
+                <div class="hexagon hexagon2">
+                  <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Divers/img3.jpeg);">
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+          <div id="dessins" class="tabcontent">
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img1.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img2.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img3.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img4.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img5.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img6.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img7.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img8.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img9.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img10.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img11.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img12.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img13.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img14.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img15.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img16.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img17.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img18.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img19.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img20.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img21.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img22.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img23.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img24.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img25.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img26.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img27.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img28.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img29.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img30.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img31.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img32.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img33.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img34.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img35.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img36.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img37.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img38.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img39.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="lab_item">
+              <div class="hexagon hexagon2">
+                <div class="hexagon-in1">
+                  <div class="hexagon-in2" style="background-image: url(img/Dessins/img40.jpg);">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="projet" class="tabcontent"></div>
+        </section>
+        <section class="contact" id="contact">
+          <div class="container">
+            <h2 class="titre titre-contact"><strong>CONTACT</strong></h2>
+            <div class="telephone">
+              <a href="tel:+33769550337"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></a>
+              <p>Voici mon numéro de téléphone.</p>
+            </div>
+            <div class="email">
+              <a href="mailto:decrouelaura@gmail.com"><img src="https://img.icons8.com/bubbles/100/000000/gmail.png"/></a>
+              <p>Voici mon email.</p>
             </div>
           </div>
         </section>
 
-      <section class="contact" id="contact">
-        <div class="container">
-          <h2 class="titre titre-contact"><strong>CONTACT</strong></h2>
-          <div class="telephone">
-            <a href="tel:+33769550337"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></a>
-          </div>
-          <div class="email">
-            <a href="mailto:decrouelaura@gmail.com"><img src="https://img.icons8.com/bubbles/100/000000/gmail.png"/></a>
-          </div>
 
-        </div>
-
-      </section>
-
-      <div class="vide"></div>
-      <div class="vide"></div>
-
-      <footer>
-        <div>
-          <img src="https://img.icons8.com/bubbles/50/000000/linkedin.png"/>
-        </div>
-        <div>
-          <img src="https://img.icons8.com/bubbles/50/000000/github.png"/>
-        </div>
-      </footer>
+      </div>
     </div>
+
+
+
+
+    <div class="vide"></div>
+    <div class="vide"></div>
+
+    <footer>
+      <div>
+        <img src="https://img.icons8.com/bubbles/50/000000/linkedin.png"/>
+      </div>
+      <div>
+        <img src="https://img.icons8.com/bubbles/50/000000/github.png"/>
+      </div>
+    </footer>
+
+    <script src="js/nav.js"></script>
   </body>
 </html>
