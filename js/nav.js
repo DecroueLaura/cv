@@ -12,38 +12,26 @@ function closeNav() {
   document.getElementById("open").style.display = "block";
 }
 
-// function openCity(event, cityName) {
-//   // Declare all variables
-//   var i, tabcontent, subcontent, sublinks, tablinks;
-//
-//   // Get all elements with class="tabcontent" and hide them
-//   tabcontent = document.getElementsByClassName("tabcontent");
-//   for (i = 0; i < tabcontent.length; i++) {
-//     tabcontent[i].style.display = "none";
-//   }
+function openPage(pageName, elmnt, color) {
+  // Hide all elements with class="tabcontent" by default */
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
 
-  // subcontent = document.getElementsByClassName("subcontent");
-  // console.log(subcontent);
-  // for (i = 0; i < subcontent.length; i++) {
-  //   subcontent[i].style.display = "none";
-  // }
+  // Remove the background color of all tablinks/buttons
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
 
-//   // Get all elements with class="tablinks" and remove the class "active"
-//   tablinks = document.getElementsByClassName("tablinks");
-//   for (i = 0; i < tablinks.length; i++) {
-//     tablinks[i].className = tablinks[i].className.replace(" active", "");
-//   }
-//
-//   // Get all elements with class="sublinks" and remove the class "active"
-//   sublinks = document.getElementsByClassName("sublinks");
-//   for (i = 0; i < sublinks.length; i++) {
-//     sublinks[i].className = sublinks[i].className.replace(" active", "");
-//   }
-//
-//   // Show the current tab, and add an "active" class to the button that opened the tab
-//   document.getElementById(cityName).style.display = "block";
-//   event.currentTarget.className += " active";
-// }
-//
-// // Get the element with id="defaultOpen" and click on it
-// document.getElementById("defaultOpen").click();
+  // Show the specific tab content
+  document.getElementById(pageName).style.display = "block";
+
+  // Add the specific color to the button used to open the tab content
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();

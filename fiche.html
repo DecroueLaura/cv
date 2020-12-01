@@ -18,25 +18,21 @@
         <li class="nav-mobile"><a href="#apropos"><img src="https://img.icons8.com/bubbles/50/000000/brown-hair-business-lady-in-red-shirt.png"/></a></li>
         <li class="nav-pc"><a href="#competences">COMPETENCES/<br>EXPERIENCES</a></li>
         <li class="nav-mobile"><a href="#competences"><img src="https://img.icons8.com/bubbles/50/000000/development-skill.png"/></a></li>
-        <li class="nav-pc"><a href="#formation">FORMATION</li>
-          <li class="nav-mobile"><a href="#formation2"><img src="https://img.icons8.com/bubbles/50/000000/graduation-cap.png"/></a></li>
-          <li class="nav-pc"><a href="#informatique">INFORMATIQUE</a></li>
-          <li class="nav-mobile"><a href="#informatique"><img src="https://img.icons8.com/bubbles/50/000000/laptop.png"/></a></li>
-          <li class="nav-pc"><a href="#cv">CV</a></li>
-          <li class="nav-pc"><a href="#portfolio">PORTFOLIO</a></li>
-          <li class="nav-mobile"><a href="#portfolio"><img src="https://img.icons8.com/bubbles/50/000000/image.png"/></a></li>
-          <li class="nav-pc"><a href="#contact">CONTACT</a></li>
-          <li class="nav-mobile" id="flex-end"><a href="telechargement/CV.pdf" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/resume.png"/></a></li>
-          <li class="nav-mobile" id="flex-end"><a href="tel:+33769550337"><img src="https://img.icons8.com/bubbles/50/000000/phone.png"/></a></li>
-          <li class="nav-mobile" id="flex-end"><a href="mailto:decrouelaura@gmail.com"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png"/></a></li>
-        </ul>
-      </div>
-    </nav>
+        <li class="nav-pc"><a href="#informatique">INFORMATIQUE</a></li>
+        <li class="nav-mobile"><a href="#informatique"><img src="https://img.icons8.com/bubbles/50/000000/laptop.png"/></a></li>
+        <li class="nav-pc"><a href="#cv">CV</a></li>
+        <li class="nav-pc"><a href="#portfolio">PORTFOLIO</a></li>
+        <li class="nav-mobile"><a href="#portfolio"><img src="https://img.icons8.com/bubbles/50/000000/image.png"/></a></li>
+        <li class="nav-pc"><a href="#contact">CONTACT</a></li>
+        <li class="nav-mobile" id="flex-end"><a href="telechargement/CV.pdf" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/resume.png"/></a></li>
+        <li class="nav-mobile" id="flex-end"><a href="tel:+33769550337"><img src="https://img.icons8.com/bubbles/50/000000/phone.png"/></a></li>
+        <li class="nav-mobile" id="flex-end"><a href="mailto:decrouelaura@gmail.com"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png"/></a></li>
+      </ul>
+    </div>
+  </nav>
 
-    <div id="body" class="page-body">
-
-      <span id="open" onclick="openNav()"><img id="reduir" src="https://img.icons8.com/bubbles/50/000000/menu.png"/></span>
-
+  <div id="body" class="page-body">
+    <span id="open" onclick="openNav()"><img id="reduir" src="https://img.icons8.com/bubbles/50/000000/menu.png"/></span>
       <header id="header" role="banner">
         <div class="opacity">
           <h1 class="test">Decroue Laura</h1>
@@ -58,10 +54,15 @@
           </div>
         </section>
 
-        <section class="section competences" id="competences">
+        <section class="section competences" >
           <div class="container coda-section-content">
             <div class="row">
-              <div class="left">
+              <div class="respon">
+                <button class="tablink" onclick="openPage('competences', this, '#9443AB')" id="defaultOpen">COMPETENCES</button>
+                <button class="tablink" onclick="openPage('experiences', this, '#9443AB')">EXPERIENCES</button>
+                <button class="tablink" onclick="openPage('formation', this, '#9443AB')">FORMATION</button>
+              </div>
+              <div class="tabcontent" id="competences">
                 <h2 class="titre titre-competences"><strong>COMPETENCES</strong></h2>
                 <div class="text">
                   <ul>
@@ -75,9 +76,8 @@
                     <li>• Soucie du travail bien fait</li>
                   </ul>
                 </div>
-
               </div>
-              <div class="right">
+              <div class="tabcontent" id="experiences">
                 <h2 class="titre titre-expriences"><strong>EXPERIENCES</strong></h2>
                 <div class="ex">
                   <h2>Association Ageval - Valenciennes • 2020-2021</h2>
@@ -94,17 +94,12 @@
                   <p>Vente, soin, hygiène, alimentation des animaux.</p>
                 </div>
               </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="formation" id="formation">
-          <div class="container">
-            <div class="row">
-              <h2 class="titre titre-formation"><strong>FORMATION</strong></h2>
-              <div class="text">
-                <h2>Brevet des colléges-Condé sur l'Escaut • 2011</h2>
-                <p> 3ème achevée-1er année de CAP-BEP</p>
+              <div class="tabcontent" id="formation">
+                <h2 class="titre titre-formation"><strong>FORMATION</strong></h2>
+                <div class="text">
+                  <h2>Brevet des colléges-Condé sur l'Escaut • 2011</h2>
+                  <p> 3ème achevée-1er année de CAP-BEP</p>
+                </div>
               </div>
             </div>
           </div>
@@ -287,9 +282,9 @@
               <div class="miniature">
                 <input type="radio" name="demo1" class="fen" id="lightbox-17" />
                 <label for="lightbox-17">
-                  <img class="test" src="img/Divers/img3.jpeg" alt>
+                  <img class="test" src="img/Divers/img3.jpg" alt>
                 </label>
-                <img class="fenetre" src="img/Divers/img3.jpeg" alt>
+                <img class="fenetre" src="img/Divers/img3.jpg" alt>
                 <figcaption>Titre6, description</figcaption>
               </div>
             </div>
