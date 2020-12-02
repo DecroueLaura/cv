@@ -52,15 +52,11 @@ table {
 body{
 	width: 100%;
 }
-.section-apropos{
-	display: block;
-	height: 20em;
-}
 .titre{
 	color: #9443AB;
 	text-align: center;
-	font-size: 24px;
-	margin: 15px;
+	font-size: 25px;
+	margin: 75px;
 }
 #reduir{
 	width: 85%;
@@ -152,47 +148,65 @@ header>div>h2{
 }
 /* fin du header */
 /* 1er section A PROPOS */
-.section1{
-	text-align: center;
+.section-apropos{
+	display: block;
 }
-.titre-a-propos{
-	margin:50px;
+.rowwrap{
+	margin: 20px 0 0 0;
+	display:flex;
+	flex-flow: row wrap;
+	justify-content: space-evenly;
 }
-.section-apropos p{
-	text-align: center;
+.moi{
+	width: 100%;
+}
+.rond{
+	overflow: hidden;
+	-webkit-border-radius:200px;
+	-moz-border-radius:200px;
+	border-radius: 200px;
+	width: 400px;
+	height: 400px;
+}
+.center-all>p{
+	text-align:center;
+	margin: 40px;
+	font-size: 18px;
 }
 /* fin 1er section */
 /* section2 COMPETENCES/EXPERIENCES */
+
 .tablink{
-	background-color: #555;
+	background-color:#9443AB ;
 	color:black;
 	float: left;
-	border: none;
+	border:none;
 	outline:none;
 	cursor:pointer;
 	padding:14px 16px;
-	font-size: 17px;
+	font-size: 25px;
 	width: calc(100%/3);
+	margin: 0 0 50px 0;
 }
 .tablink:hover{
-	background-color: #777;
+	background-color:#fff ;
 }
 .tabcontent{
-	background-color:#EDF6DE; 
 	display:none;
+}
+#competences, #experiences, #formation{
+	background-color: #EDF6DE;
 }
 .competences{
 	display: block;
 }
-.titre-competences{
-	margin:50px;
-}
-.titre-expriences{
-	margin:50px;
-}
+
 
 .text li{
-	margin:20px;
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+	margin:50px 0;
 }
 
 .ex h2{
@@ -200,13 +214,45 @@ header>div>h2{
 	margin:15px 0px;
 	color: #9443AB;
 }
-.ex{
-	margin: 50px 0px;
+.p1{
+	margin: 115px 25px;
+	text-align: center;
+}
+.p2,.p3{
+	text-align: center;
+}
+.logo{
+	margin: 25px;
+}
+.boubou{
+	text-align: center;
+}
+.bouledog{
+	overflow: hidden;
+	-webkit-border-radius:150px;
+	-moz-border-radius:150px;
+	border-radius: 150px;
+	width: 300px;
+	height: 300px;
+}
+.text, .diplome{
+	text-align: center;
+	margin: 50px 20px;
+}
+
+
+.dip{
+	overflow: hidden;
+	-webkit-border-radius:150px;
+	-moz-border-radius:150px;
+	border-radius: 150px;
+	width: 250px;
+	height: 250px;
 }
 /* fin section 2 */
 /* formation */
 .titre-formation{
-	margin:50px;
+	margin:25px;
 }
 .text h2{
 	font-weight: bolder;
@@ -217,7 +263,7 @@ header>div>h2{
 /* fin formation */
 /* section 3 INFORMATIQUE */
 .titre-informatique{
-	margin:50px;
+	margin:25px;
 }
 
 .col .width{
@@ -247,7 +293,7 @@ header>div>h2{
 /* section 5 PORTFOLIO */
 .portfolio{
 	box-sizing: border-box;
-	background-color: black;
+	background-color: #EDF6DE;
 }
 .test{
 	max-width: 100%;
