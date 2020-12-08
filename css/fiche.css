@@ -178,7 +178,7 @@ header>div>h2{
 /* bulle */
 .circle{
 	display:block;
-	background: silver;
+	background: #9443AB;
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
@@ -250,7 +250,6 @@ header>div>h2{
 	margin: 50px 20px;
 }
 
-
 .dip{
 	overflow: hidden;
 	-webkit-border-radius:150px;
@@ -321,17 +320,19 @@ header>div>h2{
 .prev, .next {
   cursor: pointer;
   position: absolute;
-  top: 50%;
+  top: 46%;
   width: auto;
-  margin-top: -22px;
-  padding: 0px;
+  margin-top: -222px;
+  padding: 208px;
   color: black;
   font-weight: bolder;
   font-size: 50px;
-  transition: 0.6s ease;
   border-radius: 0 3px 3px 0;
   user-select: none;
-	transform: translate(0 -50%);
+	-webkit-user-select: none;
+}
+.arrow{
+	text-align: initial;
 }
 /* Position the "next button" to the right */
 .next {
