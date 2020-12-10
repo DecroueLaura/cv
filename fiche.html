@@ -48,7 +48,7 @@
                 <img class="moi" src="img/moi/moi.jpg" alt="une photo de moi">
               </div>
               <div class="center-all ">
-                <h2 class="titre titre-a-propos"><strong> A PROPOS</strong></h2>
+                <h2 class="titre titre-a-propos"><strong> A Propos</strong></h2>
                 <p>Je suis intégratrice web junior de 24 ans.</p>
                 <p>Pleine de créativité, je suis motivé et souhaite faire évoluer mes connaissances pour devenir Web Designer. </p>
               </div>
@@ -60,9 +60,9 @@
           <div class="container coda-section-content">
             <div class="row">
               <div class="respon">
-                <button class="tablink" onclick="openPage('competences', this, '#EDF6DE')" id="defaultOpen"><strong>COMPETENCES</strong></button>
-                <button class="tablink" onclick="openPage('experiences', this, '#EDF6DE')"><strong>EXPERIENCES</strong></button>
-                <button class="tablink" onclick="openPage('formation', this, '#EDF6DE')"><strong>FORMATION</strong></button>
+                <button class="tablink" onclick="openPage('competences', this, '#EDF6DE')" id="defaultOpen"><strong style="color:#9443AB; font-family: 'Playlist-Script';">Compétences</strong></button>
+                <button class="tablink" onclick="openPage('experiences', this, '#EDF6DE')"><strong style="color:#9443AB; font-family: 'Playlist-Script';">Experiences</strong></button>
+                <button class="tablink" onclick="openPage('formation', this, '#EDF6DE')"><strong style="color:#9443AB; font-family: 'Playlist-Script';">Formation</strong></button>
               </div>
               <div class="tabcontent" id="competences">
                 <div class="text">
@@ -117,7 +117,7 @@
         <section class="informatique" id="informatique">
           <div class="container">
             <div class="row">
-              <h2 class="titre titre-informatique"><strong>INFORMATIQUE</strong></h2>
+              <h2 class="titre titre-informatique"><strong>Informatique</strong></h2>
               <div class="partage-de-3 col ta-center">
                 <img class="width" src="https://img.icons8.com/color/144/000000/html-5.png"/>
                 <h3>HTML 5</h3>
@@ -145,10 +145,15 @@
         <section class="cv" id="cv">
           <div class="container">
             <div class="row">
+              <h2 class="titre titre-cv">Cv</h2>
               <div class="imgcv">
+                <div>
                 <a href="telechargement/CV.pdf" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/resume.png"/></a>
-                <h2 class="titre titre-cv"><strong>PAR ICI !</strong></h2>
-                <p>Bonjour, ici en cliquant sur mon icône ci-dessus, vous pourrez télécharger mon cv. </p>
+                </div>
+                <div>
+                  <input class="none" type="button" name="cv" value="">
+                  <label for="cv"><a href="telechargement/CV.pdf" target="_blank">Par ici</a></label>
+                </div>
               </div>
             </div>
           </div>
@@ -156,7 +161,7 @@
 
         <section class="portfolio" id="portfolio">
           <div class="container">
-            <h2 class="titre titre-portfolio"><strong>PORTFOLIO</strong></h2>
+            <h2 class="titre titre-portfolio"><strong>Portfolio</strong></h2>
           </div>
           <div class="slideshow-contener">
             <div class="mySlides2 fade">
@@ -473,474 +478,12 @@
               <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
             </div>
           </div>
-          <!-- <div class="cadre-demo1">
-            <div class="photos-mini">
-              <div class="miniature">
-                <input type="radio" name="demo1" checked class="fen1" id="lightbox-1" />
-                <label for="lightbox-1">
-                  <img class="test" src="img/Fleurs-Fruits/img2.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Fleurs-Fruits/img2.jpg" alt>
-                <figcaption>Titre2, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen1" id="lightbox-2" />
-                <label for="lightbox-2">
-                  <img class="test" src="img/Fleurs-Fruits/img3.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Fleurs-Fruits/img3.jpg" alt>
-                <figcaption>Titre3, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen1" id="lightbox-3" />
-                <label for="lightbox-3">
-                  <img class="test" src="img/Fleurs-Fruits/img4.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Fleurs-Fruits/img4.jpg" alt>
-                <figcaption>Titre4, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen1" id="lightbox-4" />
-                <label for="lightbox-4">
-                  <img class="test" src="img/Fleurs-Fruits/img5.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Fleurs-Fruits/img5.jpg" alt>
-                <figcaption>Titre5, descriptionv</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen1" id="lightbox-5" />
-                <label for="lightbox-5">
-                  <img class="test" src="img/Fleurs-Fruits/img6.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Fleurs-Fruits/img6.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen1" id="lightbox-6" />
-                <label for="lightbox-6">
-                  <img class="test" src="img/Fleurs-Fruits/img7.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Fleurs-Fruits/img7.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen1" id="lightbox-7" />
-                <label for="lightbox-7">
-                  <img class="test" src="img/Fleurs-Fruits/img8.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Fleurs-Fruits/img8.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen1" id="lightbox-8" />
-                <label for="lightbox-8">
-                  <img class="test" src="img/Fleurs-Fruits/img9.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Fleurs-Fruits/img9.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen1" id="lightbox-9" />
-                <label for="lightbox-9">
-                  <img class="test" src="img/Animaux-Insectes/img2.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Animaux-Insectes/img2.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen1" id="lightbox-10" />
-                <label for="lightbox-10">
-                  <img class="test" src="img/Animaux-Insectes/img3.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Animaux-Insectes/img3.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen1" id="lightbox-11" />
-                <label for="lightbox-11">
-                  <img class="test" src="img/Street-Art/img2.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Street-Art/img2.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen1" id="lightbox-12" />
-                <label for="lightbox-12">
-                  <img class="test" src="img/Street-Art/img3.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Street-Art/img3.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen1" id="lightbox-13" />
-                <label for="lightbox-13">
-                  <img class="test" src="img/Rue-Jardin/img3.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Rue-Jardin/img3.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen1" id="lightbox-14" />
-                <label for="lightbox-14">
-                  <img class="test" src="img/Rue-Jardin/img4.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Rue-Jardin/img4.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen" id="lightbox-15" />
-                <label for="lightbox-15">
-                  <img class="test" src="img/Rue-Jardin/img10.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Rue-Jardin/img10.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen" id="lightbox-16" />
-                <label for="lightbox-16">
-                  <img class="test" src="img/Divers/img1.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Divers/img1.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo1" class="fen" id="lightbox-17" />
-                <label for="lightbox-17">
-                  <img class="test" src="img/Divers/img3.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Divers/img3.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-            </div>
-          </div>
-          <div class="cadre-demo2">
-            <div class="photos-mini">
-              <div class="miniature">
-                <input type="radio" name="demo" checked class="fen" id="lightbox-41" />
-                <label for="lightbox-41">
-                  <img class="test" src="img/Dessins/img1.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img1.jpg" alt>
-                <figcaption>Titre2, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-42" />
-                <label for="lightbox-42">
-                  <img class="test" src="img/Dessins/img2.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img2.jpg" alt>
-                <figcaption>Titre3, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-43" />
-                <label for="lightbox-43">
-                  <img class="test" src="img/Dessins/img3.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img3.jpg" alt>
-                <figcaption>Titre4, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-44" />
-                <label for="lightbox-44">
-                  <img class="test" src="img/Dessins/img4.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img4.jpg" alt>
-                <figcaption>Titre5, descriptionv</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-45" />
-                <label for="lightbox-45">
-                  <img class="test" src="img/Dessins/img5.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img5.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-46" />
-                <label for="lightbox-46">
-                  <img class="test" src="img/Dessins/img6.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img6.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-47" />
-                <label for="lightbox-47">
-                  <img class="test" src="img/Dessins/img7.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img7.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-48" />
-                <label for="lightbox-48">
-                  <img class="test" src="img/Dessins/img8.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img8.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-49" />
-                <label for="lightbox-49">
-                  <img class="test" src="img/Dessins/img9.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img9.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-50" />
-                <label for="lightbox-50">
-                  <img class="test" src="img/Dessins/img10.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img10.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-51" />
-                <label for="lightbox-51">
-                  <img class="test" src="img/Dessins/img11.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img11.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-52" />
-                <label for="lightbox-52">
-                  <img class="test" src="img/Dessins/img12.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img12.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-53" />
-                <label for="lightbox-53">
-                  <img class="test" src="img/Dessins/img13.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img13.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-54" />
-                <label for="lightbox-54">
-                  <img class="test" src="img/Dessins/img14.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img14.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-55" />
-                <label for="lightbox-55">
-                  <img class="test" src="img/Dessins/img15.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img15.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-56" />
-                <label for="lightbox-56">
-                  <img class="test" src="img/Dessins/img16.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img16.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-17" />
-                <label for="lightbox-17">
-                  <img class="test" src="img/Dessins/img17.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img17.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-18" />
-                <label for="lightbox-18">
-                  <img class="test" src="img/Dessins/img18.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img18.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-19" />
-                <label for="lightbox-19">
-                  <img class="test" src="img/Dessins/img19.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img19.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-20" />
-                <label for="lightbox-20">
-                  <img class="test" src="img/Dessins/img20.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img20.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-21" />
-                <label for="lightbox-21">
-                  <img class="test" src="img/Dessins/img21.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img21.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-22" />
-                <label for="lightbox-22">
-                  <img class="test" src="img/Dessins/img22.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img22.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-23" />
-                <label for="lightbox-23">
-                  <img class="test" src="img/Dessins/img23.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img23.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-24" />
-                <label for="lightbox-24">
-                  <img class="test" src="img/Dessins/img24.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img24.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-25" />
-                <label for="lightbox-25">
-                  <img class="test" src="img/Dessins/img25.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img25.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-26" />
-                <label for="lightbox-26">
-                  <img class="test" src="img/Dessins/img26.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img26.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-27" />
-                <label for="lightbox-27">
-                  <img class="test" src="img/Dessins/img27.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img27.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-28" />
-                <label for="lightbox-28">
-                  <img class="test" src="img/Dessins/img28.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img28.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-29" />
-                <label for="lightbox-29">
-                  <img class="test" src="img/Dessins/img29.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img29.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-30" />
-                <label for="lightbox-30">
-                  <img class="test" src="img/Dessins/img30.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img30.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-31" />
-                <label for="lightbox-31">
-                  <img class="test" src="img/Dessins/img31.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img31.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-32" />
-                <label for="lightbox-32">
-                  <img class="test" src="img/Dessins/img32.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img32.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-33" />
-                <label for="lightbox-33">
-                  <img class="test" src="img/Dessins/img33.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img33.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-34" />
-                <label for="lightbox-34">
-                  <img class="test" src="img/Dessins/img34.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img34.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-35" />
-                <label for="lightbox-35">
-                  <img class="test" src="img/Dessins/img35.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img35.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-36" />
-                <label for="lightbox-36">
-                  <img class="test" src="img/Dessins/img36.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img36.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-37" />
-                <label for="lightbox-37">
-                  <img class="test" src="img/Dessins/img37.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img37.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-38" />
-                <label for="lightbox-38">
-                  <img class="test" src="img/Dessins/img38.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img38.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-39" />
-                <label for="lightbox-39">
-                  <img class="test" src="img/Dessins/img39.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img39.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-              <div class="miniature">
-                <input type="radio" name="demo" class="fen" id="lightbox-40" />
-                <label for="lightbox-40">
-                  <img class="test" src="img/Dessins/img40.jpg" alt>
-                </label>
-                <img class="fenetre" src="img/Dessins/img40.jpg" alt>
-                <figcaption>Titre6, description</figcaption>
-              </div>
-            </div>
-          </div> -->
+
         </section>
+
         <section class="contact" id="contact">
           <div class="container">
-            <h2 class="titre titre-contact"><strong>CONTACT</strong></h2>
+            <h2 class="titre titre-contact"><strong>Contact</strong></h2>
             <div class="telephone">
               <a href="tel:+33769550337"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></a>
               <p>Voici mon numéro de téléphone.</p>
@@ -957,11 +500,14 @@
     </div>
 
     <footer>
-      <div>
-        <img src="https://img.icons8.com/bubbles/50/000000/linkedin.png"/>
+      <div class="mention">
+        <p>Decroue Laura 2020 • Tous droits réservé.</p>
       </div>
-      <div>
-        <img src="https://img.icons8.com/bubbles/50/000000/github.png"/>
+      <div id="reseau">
+        <a href="https://www.linkedin.com/in/laura-decroue-28824b1ba/"><img class="reseau" src="https://img.icons8.com/bubbles/50/000000/linkedin.png"/></a>
+
+        <a href="https://github.com/DecroueLaura"><img class="reseau" src="https://img.icons8.com/bubbles/50/000000/github.png"/></a>
+
       </div>
     </footer>
 

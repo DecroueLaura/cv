@@ -53,9 +53,10 @@ body{
 	width: 100%;
 }
 .titre{
+	font-family: 'Playlist-Script';
 	color: #9443AB;
 	text-align: center;
-	font-size: 25px;
+	font-size: 40px;
 	margin: 75px;
 }
 #reduir{
@@ -178,7 +179,7 @@ header>div>h2{
 /* bulle */
 .circle{
 	display:block;
-	background: #9443AB;
+	border: solid 2px #9443AB;
 	border-radius: 50%;
 	width: 200px;
 	height: 200px;
@@ -192,10 +193,10 @@ header>div>h2{
 
 /* fin bulle */
 .tablink{
-	background-color:#9443AB ;
+	/* background-color:#9443AB ; */
 	color:black;
 	float: left;
-	border:none;
+
 	outline:none;
 	cursor:pointer;
 	padding:14px 16px;
@@ -204,7 +205,7 @@ header>div>h2{
 	margin: 0 0 50px 0;
 }
 .tablink:hover{
-	background-color:#fff ;
+	box-shadow:5px 2px 2px black;
 }
 .tabcontent{
 	display:none;
@@ -281,7 +282,7 @@ header>div>h2{
 }
 .col{
 	display: inline-block;
-	width: 33%;
+	width: 24%;
 	text-align: center;
 }
 .ta-center h3{
@@ -296,8 +297,14 @@ header>div>h2{
 	width: 100%;
 	text-align: center;
 }
-.imgcv h2{
-	margin: 50px;
+.none{
+	display: none;
+}
+label>a{
+	font-family: 'Playlist-Script';
+	font-size: 35px;
+	text-decoration: none;
+	color:#9443AB;
 }
 /* fin section 4 */
 /* section 5 PORTFOLIO */
@@ -307,7 +314,8 @@ header>div>h2{
 }
 /* test */
 .slideshow-contener{
-  width: 1000px;
+	display: inline-block;
+  width: 49%;
   position: relative;
   margin: 50px 0;
 	text-align: -webkit-center;
@@ -329,8 +337,8 @@ header>div>h2{
   position: absolute;
   top: 50%;
   width: auto;
-  margin-top: -277px;
-  padding: 255px;
+  margin-top: -135px;
+  padding: 110px;
   color: black;
   font-weight: bolder;
   font-size: 50px;
@@ -393,77 +401,6 @@ header>div>h2{
   to {opacity: 1}
 }
 /* fin test */
-.test{
-	max-width: 100%;
-}
-input[type=radio]{
-position: absolute;
-left: -9999px;
-}
-.cadre-demo1 label{
-cursor:pointer/*on pointe tous les labels*/
-}
-.cadre-demo2 label{
-cursor:pointer/*on pointe tous les labels*/
-}
-.cadre-demo1{
-overflow: hidden;
-position: relative;
-/* height: 400px; */
-width: 50%;
-margin: auto;
-}
-.cadre-demo2{
-overflow: hidden;
-position: relative;
-max-width: 50%;
-margin: auto;
-}
-.photos-mini{
-	padding-top: 400px;/* il s'agit du ratio pour le responsive*/
-	display: flex;
-}
-
-.miniature{
-	flex: 1; /*les photos occupent la même place selon la largeur du conteneur*/
-	padding:.25rem;
-}
-.fenetre{/*grande photo*/
-	height: 400px;
-	object-fit: cover;
-	position: absolute;
-	top: 0;
-	transition:all .6s;
-	left: -100%;
-	opacity: 0;
-}
-.fen:checked~ .fenetre{
-	left: 50%;
-	transform: translate(-50%, 0);
-	opacity: 1;
-}
-.cadre-demo1 .fen1:checked~ .fenetre{
-	left: 50%;
-	transform: translate(-50%, 0);
-	opacity: 1;
-}
-figcaption{/*optionnel*/
-position: absolute;
-top: 0;
-left: 0;
-padding: .25rem;
-transition: opacity .4s;
-opacity: 0;
-display: flex;
-justify-content: center;
-color: white;
-background: hsla(0,0%,0%,.8);
-}
-
-.fen:checked~figcaption{
-opacity: 1;
-	}
-
 /* fin loisir */
 /* contact */
 
@@ -484,10 +421,28 @@ opacity: 1;
 
 /* fin contact */
 footer{
-
+	background-color: black;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
 }
-
-
+#reseau{
+	display: flex;
+	flex-direction: column;
+}
+#reseau>a{
+	justify-content: flex-end;
+}
+.mention{
+	color: white;
+	width: 79%;
+}
+.mention>p{
+	text-align: center;
+	margin: 76px 0 0 0;
+	font-size: 18px;
+	font-weight: bolder;
+}
 @media screen and (max-width:480px) {
 	body{
 		margin:0;
@@ -571,9 +526,26 @@ footer{
 		display: block;
 		width: 100%;
 		text-align: center;
+		margin:25px 0;
 	}
 	/* fin informatique */
 /* portfolio */
-
+.slideshow-contener{
+	display: block;
+	width: 100%;
+}
+.prev, .next{
+	margin-top:-85px;
+	padding: 55px;
+}
 /* fin portfolio */
+/* footer */
+.mention>p{
+	font-size: 12px;
+}
+.reseau{
+	width: 25px;
+}
+#reseau{
+	flex-direction: column-reverse;
 }
