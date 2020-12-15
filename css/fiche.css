@@ -160,6 +160,7 @@ header>div>h2{
 }
 .moi{
 	width: 100%;
+
 }
 .rond{
 	overflow: hidden;
@@ -168,12 +169,52 @@ header>div>h2{
 	border-radius: 200px;
 	width: 400px;
 	height: 400px;
+	box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
 }
 .center-all>p{
 	text-align:center;
 	margin: 40px;
 	font-size: 18px;
 }
+.center-a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	margin:75px;
+}
+.none{
+	display: none;
+}
+/* bouton  */
+.bouton{
+	margin:35px;
+	text-align: center;
+}
+label>a{
+	font-family: 'Playlist-Script';
+	font-size: 35px;
+	text-decoration: none;
+	color:#9443AB;
+	padding: 25px 35px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  background-color: #EDF6DE;
+  border: none;
+  border-radius: 50px;
+  box-shadow: 0 9px #999;
+}
+label>a:hover {
+	background-color: #9443AB;
+	color: #EDF6DE;
+}
+
+/* label>a:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+} */
+/* fin bouton */
 /* fin 1er section */
 /* section2 COMPETENCES/EXPERIENCES */
 /* bulle */
@@ -290,22 +331,7 @@ header>div>h2{
 }
 /* fin section3 */
 /* section 4 cv */
-.cv{
-	margin: 150px 0px;
-}
-.row .imgcv{
-	width: 100%;
-	text-align: center;
-}
-.none{
-	display: none;
-}
-label>a{
-	font-family: 'Playlist-Script';
-	font-size: 35px;
-	text-decoration: none;
-	color:#9443AB;
-}
+
 /* fin section 4 */
 /* section 5 PORTFOLIO */
 .portfolio{
@@ -320,9 +346,7 @@ label>a{
   margin: 50px 0;
 	text-align: -webkit-center;
 }
-/* .vertical{
-	vertical-align: middle;
-} */
+
 .mySlides2 {
 	width: 50%;
   display: none;
@@ -402,6 +426,19 @@ label>a{
 }
 /* fin test */
 /* fin loisir */
+/* projet */
+.inline-block{
+	display: inline-block;
+	width: 32%;
+}
+.inline-block:hover{
+	box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
+}
+.ct{
+	text-align: center;
+}
+
+/* fin projet */
 /* contact */
 
 .contact{
@@ -511,11 +548,21 @@ justify-content: space-between;
 		width: 200px;
 		height: 200px;
 	}
+	.bouton{
+		width: 66%;
+	}
+	label>a{
+		font-size: 18px;
+	}
 	/* fin a propos */
 	/* Tab */
 	.tablink{
 		font-size: 12px;
 		padding: 14px 0;
+	}
+	.circle{
+		width: 150px;
+		height: 150px;
 	}
 	/* fin Tab */
 	/*informatique  */
