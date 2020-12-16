@@ -1,510 +1,509 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta name='viewport' content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <title>Decroue-Laura</title>
-  <link rel="stylesheet" href="css/fiche.css">
-  <link rel = "preconnect" href = "https://fonts.gstatic.com">
-  <link href = "https://fonts.googleapis.com/css2? family = Fait maison + Apple & display = swap" rel = "feuille de style">
-  <!-- <a href="https://icons8.com/icon/NDIMAFy35qo3/image">Image icon by Icons8</a> -->
-</head>
-<body>
-  <nav id="nav" class="navbar" role="navigation">
-    <div class="contener_nav">
-      <ul class="nav">
-        <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="https://img.icons8.com/bubbles/50/000000/cancel.png"/></a></li>
-        <li class="nav-pc"><a href="#apropos">A PROPOS</a></li>
-        <li class="nav-mobile"><a href="#apropos"><img src="https://img.icons8.com/bubbles/50/000000/brown-hair-business-lady-in-red-shirt.png"/></a></li>
-        <li class="nav-pc"><a href="#competences">COMPETENCES/<br>EXPERIENCES</a></li>
-        <li class="nav-mobile"><a href="#competences"><img src="https://img.icons8.com/bubbles/50/000000/development-skill.png"/></a></li>
-        <li class="nav-pc"><a href="#informatique">INFORMATIQUE</a></li>
-        <li class="nav-mobile"><a href="#informatique"><img src="https://img.icons8.com/bubbles/50/000000/laptop.png"/></a></li>
-        <li class="nav-pc"><a href="#portfolio">PORTFOLIO</a></li>
-        <li class="nav-mobile"><a href="#portfolio"><img src="https://img.icons8.com/bubbles/50/000000/image.png"/></a></li>
-        <li class="nav-pc"><a href="#projet">PROJET</a></li>
-        <li class="nav-mobile"><a href="#projet"><img src="https://img.icons8.com/bubbles/50/000000/work.png"/></a></li>
-        <li class="nav-pc"><a href="#contact">CONTACT</a></li>
-        <li class="nav-mobile" id="flex-end"><a href="telechargement/CV.pdf" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/resume.png"/></a></li>
-        <li class="nav-mobile" id="flex-end"><a href="tel:+33769550337"><img src="https://img.icons8.com/bubbles/50/000000/phone.png"/></a></li>
-        <li class="nav-mobile" id="flex-end"><a href="mailto:decrouelaura@gmail.com"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png"/></a></li>
-      </ul>
-    </div>
-  </nav>
-
-  <div id="body" class="page-body">
-    <span id="open" onclick="openNav()"><img id="reduir" src="https://img.icons8.com/bubbles/50/000000/menu.png"/></span>
-      <header id="header" role="banner">
-        <div class="opacity">
-          <h1 class="test">Decroue Laura</h1>
-          <h2 class="test"><strong>Intégratrice web junior</strong></h2>
-        </div>
-      </header>
-
-      <div class="page" role="main">
-        <section class="section-apropos" id="apropos">
-          <div class="container">
-            <div class="rowwrap">
-              <div class="rond">
-                <img class="moi" src="img/moi/moi.jpg" alt="une photo de moi">
-              </div>
-              <div class="center-all ">
-                <h2 class="titre titre-a-propos"><strong> A Propos</strong></h2>
-                <p>Je suis intégratrice web junior de 24 ans.</p>
-                <p>Pleine de créativité, je suis motivé et souhaite faire évoluer mes connaissances pour devenir Web Designer. </p>
-              </div>
-              <div class="center-a">
-                <a href="telechargement/CV.pdf" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/resume.png"/></a>
-                <div class="bouton">
-                  <input class="none" type="button" name="cv" value="">
-                  <label for="cv"><a href="telechargement/CV.pdf" target="_blank">Par ici</a></label>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="section competences" >
-          <div class="container coda-section-content">
-            <div class="row">
-              <div class="respon">
-                <button class="tablink" onclick="openPage('competences', this, '#EDF6DE')" id="defaultOpen"><strong style="color:#9443AB; font-family: 'Playlist-Script';">Compétences</strong></button>
-                <button class="tablink" onclick="openPage('experiences', this, '#EDF6DE')"><strong style="color:#9443AB; font-family: 'Playlist-Script';">Experiences</strong></button>
-                <button class="tablink" onclick="openPage('formation', this, '#EDF6DE')"><strong style="color:#9443AB; font-family: 'Playlist-Script';">Formation</strong></button>
-              </div>
-              <div class="tabcontent" id="competences">
-                <div class="text">
-                  <ul>
-                    <li><figure class="circle"><p>Analysé le besoin du client</p></figure></li>
-                    <li><figure class="circle"><p> Esprit créatif</p></figure></li>
-                    <li><figure class="circle"><p> Curiosité</p></figure></li>
-                    <li><figure class="circle"><p> Persévérence</p></figure></li>
-                    <li><figure class="circle"><p> Sens de l'organisation</p></figure></li>
-                    <li><figure class="circle"><p> Sens relationnel</p></figure></li>
-                    <li><figure class="circle"><p> Travail et animation d'équipe</p></figure></li>
-                    <li><figure class="circle"><p> Soucie du travail bien fait</p></figure></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="tabcontent" id="experiences">
-                <div class="ex p1">
-                  <div class="logo">
-                    <h2>Association Ageval - Valenciennes • 2020-2021</h2>
-                    <p>Atelier Numérique- développement, graphisme, ergonomie et indentité numérique d'un site web.</p>
-                  </div>
-                  <div class="logo">
-                    <img src="img/logoAgeval.png" alt="Logo de Ageval">
-                  </div>
-                </div>
-
-                <div class="ex p2">
-                  <h2>Stage: Les Anges Gardien d'Olivier - Velenciennes • 05/2011</h2>
-                  <p>Vente, soin, hygiène, alimentation des animaux.</p>
-                </div>
-                <div class="boubou">
-                  <img class="bouledog" src="img/bouledogue.jpg" alt="illutration bouledogue français">
-                </div>
-                <div class="ex p3">
-                  <h2>Stage: élevage canin professionnel - Corrèze • 05/2011</h2>
-                  <p>Vente, soin, hygiène, alimentation des animaux.</p>
-                </div>
-              </div>
-              <div class="tabcontent" id="formation">
-                <div class="diplome">
-                  <img class="dip" src="img/diplome.jpg"/ alt="illustration diplome">
-                </div>
-                <div class="text">
-                  <h2>Brevet des colléges-Condé sur l'Escaut • 2011</h2>
-                  <p> 3ème achevée-1er année de CAP-BEP</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="informatique" id="informatique">
-          <div class="container">
-            <div class="row">
-              <h2 class="titre titre-informatique"><strong>Informatique</strong></h2>
-              <div class="partage-de-3 col ta-center">
-                <img class="width" src="https://img.icons8.com/color/144/000000/html-5.png"/>
-                <h3>HTML 5</h3>
-                <p>Connaissances de base</p>
-              </div>
-              <div class="partage-de-3 col ta-center">
-                <img class="width" src="https://img.icons8.com/color/144/000000/css3.png"/>
-                <h3>CSS 3</h3>
-                <p>Connaissances de base</p>
-              </div>
-              <div class="partage-de-3 col ta-center">
-                <img  class="width" src="https://img.icons8.com/color/144/000000/adobe-photoshop.png"/>
-                <h3>Adobe Photoshop</h3>
-                <p>Notion de base, ce logiciel a étais utilisé pour un projet.</p>
-              </div>
-              <div class="partage-de-3 col ta-center">
-                <img  class="width" src="https://img.icons8.com/color/144/000000/adobe-illustrator.png"/>
-                <h3>Adobe Illustrator</h3>
-                <p>Notion de bases, ce logiciel a étais utilisé pour une projet.</p>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="portfolio" id="portfolio">
-          <div class="container">
-            <h2 class="titre titre-portfolio"><strong>Portfolio</strong></h2>
-          </div>
-          <div class="slideshow-contener">
-            <div class="mySlides2 fade">
-              <div class="numbertext">1 / 17</div>
-              <img class="vertical" src="img/Fleurs-Fruits/img2.jpg" alt="fleur à moitier ouverte" style="width:100%">
-              <div class="text1"></div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">2 / 17</div>
-              <img class="vertical" src="img/Fleurs-Fruits/img3.jpg" alt="fleur orange sur les pétales et jaune a l'interrieur" style="width:100%">
-              <div class="text1"></div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">3 / 17</div>
-              <img class="vertical" src="img/Fleurs-Fruits/img4.jpg" alt="fleur jaune avec une touche de orange au milieu" style="width:100%">
-              <div class="text1"></div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">4 / 17</div>
-              <img class="vertical" src="img/Fleurs-Fruits/img5.jpg" alt="fleur jaune avec des gouttes d'Escaut" style="width:100%">
-              <div class="text1"></div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">5 / 17</div>
-              <img class="vertical" src="img/Fleurs-Fruits/img6.jpg" alt="fleur rose / mauve fermé" style="width:100%">
-              <div class="text1"></div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">6 / 17</div>
-              <img class="vertical" src="img/Fleurs-Fruits/img7.jpg" alt="fleur rose" style="width:100%">
-              <div class="text1"></div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">7 / 17</div>
-              <img class="vertical" src="img/Fleurs-Fruits/img8.jpg" alt="fleur mauve sur l'exterieur et blanc/vert a l'interieur" style="width:100%">
-              <div class="text1"></div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">8 / 17</div>
-              <img class="vertical" src="img/Fleurs-Fruits/img9.jpg" alt="fleur rose et blanc" style="width:100%">
-              <div class="text1"></div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">9 / 17</div>
-              <img class="vertical" src="img/Animaux-Insectes/img2.jpg" alt="abeille sur une fleur jaune" style="width:100%">
-              <div class="text1">Caption Three</div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">10 / 17</div>
-              <img class="vertical" src="img/Animaux-Insectes/img3.jpg" alt=" bourdon sur des fleur mauve" style="width:100%">
-              <div class="text1">Caption Three</div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">11 / 17</div>
-              <img class="vertical" src="img/Rue-Jardin/img3.jpg" alt="arbre vue de dessous" style="width:100%">
-              <div class="text1">Caption Three</div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">12 / 17</div>
-              <img class="vertical" src="img/Rue-Jardin/img4.jpg" alt="ruelle en noir et blanc" style="width:100%">
-              <div class="text1">Caption Three</div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">13 / 17</div>
-              <img class="vertical" src="img/Rue-Jardin/img10.jpg" alt="ruelle vue du sol" style="width:100%">
-              <div class="text1">Caption Three</div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">14 / 17</div>
-              <img class="vertical" src="img/Street-Art/img2.jpg" alt="femme avec les yeux fermé" style="width:100%">
-              <div class="text1">Caption Three</div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">15 / 17</div>
-              <img class="vertical" src="img/Street-Art/img3.jpg" alt="astronote" style="width:100%">
-              <div class="text1">Caption Three</div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">16 / 17</div>
-              <img class="vertical" src="img/Divers/img1.jpg" alt="crane photographier a une exposition de paris" style="width:100%">
-              <div class="text1">Caption Three</div>
-            </div>
-
-            <div class="mySlides2 fade">
-              <div class="numbertext">17 / 17</div>
-              <img class="vertical" src="img/Divers/img3.jpg" alt="sable et ciel" style="width:100%">
-              <div class="text1">Caption Three</div>
-            </div>
-
-            <div class="arrow">
-              <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
-            </div>
-          </div>
-
-          <div class="slideshow-contener">
-            <div class="mySlides fade">
-              <div class="numbertext">1 / 40</div>
-              <img class="vertical" src="img/Dessins/img1.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">2 / 40</div>
-              <img class="vertical" src="img/Dessins/img2.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">3 / 40</div>
-              <img class="vertical" src="img/Dessins/img3.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">4 / 40</div>
-              <img class="vertical" src="img/Dessins/img4.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">5 / 40</div>
-              <img class="vertical" src="img/Dessins/img5.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">6 / 40</div>
-              <img class="vertical" src="img/Dessins/img6.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">7 / 40</div>
-              <img class="vertical" src="img/Dessins/img7.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">8 / 40</div>
-              <img class="vertical" src="img/Dessins/img8.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">9 / 40</div>
-              <img class="vertical" src="img/Dessins/img9.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">10 / 40</div>
-              <img class="vertical" src="img/Dessins/img10.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">11 / 40</div>
-              <img class="vertical" src="img/Dessins/img11.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">12 / 40</div>
-              <img class="vertical" src="img/Dessins/img12.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">13 / 40</div>
-              <img class="vertical" src="img/Dessins/img13.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">14 / 40</div>
-              <img class="vertical" src="img/Dessins/img14.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">15 / 40</div>
-              <img class="vertical" src="img/Dessins/img15.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">16 / 40</div>
-              <img class="vertical" src="img/Dessins/img16.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">17 / 40</div>
-              <img class="vertical" src="img/Dessins/img17.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">18 / 40</div>
-              <img class="vertical" src="img/Dessins/img18.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">19 / 40</div>
-              <img class="vertical" src="img/Dessins/img19.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">20 / 40</div>
-              <img class="vertical" src="img/Dessins/img20.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">21 / 40</div>
-              <img class="vertical" src="img/Dessins/img21.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">22 / 40</div>
-              <img class="vertical" src="img/Dessins/img22.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">23 / 40</div>
-              <img class="vertical" src="img/Dessins/img23.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">24 / 40</div>
-              <img class="vertical" src="img/Dessins/img24.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">25 / 40</div>
-              <img class="vertical" src="img/Dessins/img25.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">26 / 40</div>
-              <img class="vertical" src="img/Dessins/img26.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">27 / 40</div>
-              <img class="vertical" src="img/Dessins/img27.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">28 / 40</div>
-              <img class="vertical" src="img/Dessins/img28.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">29 / 40</div>
-              <img class="vertical" src="img/Dessins/img29.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">30 / 40</div>
-              <img class="vertical" src="img/Dessins/img30.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">31 / 40</div>
-              <img class="vertical" src="img/Dessins/img31.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">32 / 40</div>
-              <img class="vertical" src="img/Dessins/img32.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">33 / 40</div>
-              <img class="vertical" src="img/Dessins/img33.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">34 / 40</div>
-              <img class="vertical" src="img/Dessins/img34.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">35 / 40</div>
-              <img class="vertical" src="img/Dessins/img35.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">36 / 40</div>
-              <img class="vertical" src="img/Dessins/img36.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">37 / 40</div>
-              <img class="vertical" src="img/Dessins/img37.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">38 / 40</div>
-              <img class="vertical" src="img/Dessins/img38.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">39 / 40</div>
-              <img class="vertical" src="img/Dessins/img39.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="mySlides fade">
-              <div class="numbertext">40 / 40</div>
-              <img class="vertical" src="img/Dessins/img40.jpg" style="width:100%">
-              <div class="text1"></div>
-            </div>
-            <div class="arrow">
-              <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
-              <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
-            </div>
-          </div>
-
-        </section>
-
-        <section class="projet" id="projet" style="display:block;">
-          <div class="container">
-            <div>
-              <h2 class="titre titre-projet">Projet</h2>
-            </div>
-            <div class="inline-block">
-              <img src="img/laura-decroue-double-exposition.png" alt="double explostion d'une femme et de New York" style="width: 100%;">
-            </div>
-            <div class="inline-block ct">
-              <img src="img/laura-decroue-007-optimisé.png" alt="affiche d'un film 007" style="width:50%; text-align:center;">
-            </div>
-            <div class="inline-block" >
-              <img src="img/laura-decroue-foret1.png" alt="forêt en période de neige" style="width:100%;">
-            </div>
-          </div>
-        </section>
-
-        <section class="contact" id="contact">
-          <div class="container">
-            <h2 class="titre titre-contact"><strong>Contact</strong></h2>
-            <div class="telephone">
-              <a href="tel:+33769550337"><img src="https://img.icons8.com/bubbles/100/000000/phone.png"/></a>
-              <p>Voici mon numéro de téléphone.</p>
-            </div>
-            <div class="email">
-              <a href="mailto:decrouelaura@gmail.com"><img src="https://img.icons8.com/bubbles/100/000000/gmail.png"/></a>
-              <p>Voici mon email.</p>
-            </div>
-          </div>
-        </section>
-
-
+  <head>
+    <meta charset="utf-8">
+    <meta name='viewport' content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Decroue-Laura</title>
+    <link rel="stylesheet" href="css/fiche.css">
+    <link rel = "preconnect" href = "https://fonts.gstatic.com">
+    <link href = "https://fonts.googleapis.com/css2? family = Fait maison + Apple & display = swap" rel = "feuille de style">
+    <!-- <a href="https://icons8.com/icon/NDIMAFy35qo3/image">Image icon by Icons8</a> -->
+  </head>
+  <body>
+    <nav id="nav" class="navbar" role="navigation">
+      <div class="contener_nav">
+        <ul class="nav">
+          <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="https://img.icons8.com/bubbles/50/000000/cancel.png" alt="close"/></a></li>
+          <li class="nav-pc"><a href="#apropos">A PROPOS</a></li>
+          <li class="nav-mobile"><a href="#apropos"><img src="https://img.icons8.com/bubbles/50/000000/brown-hair-business-lady-in-red-shirt.png" alt="a propos"/></a></li>
+          <li class="nav-pc"><a href="#competences">COMPETENCES/<br>EXPERIENCES</a></li>
+          <li class="nav-mobile"><a href="#competences"><img src="https://img.icons8.com/bubbles/50/000000/development-skill.png" alt=" compentences"/></a></li>
+          <li class="nav-pc"><a href="#informatique">INFORMATIQUE</a></li>
+          <li class="nav-mobile"><a href="#informatique"><img src="https://img.icons8.com/bubbles/50/000000/laptop.png" alt="informatique"/></a></li>
+          <li class="nav-pc"><a href="#portfolio">PORTFOLIO</a></li>
+          <li class="nav-mobile"><a href="#portfolio"><img src="https://img.icons8.com/bubbles/50/000000/image.png" alt="portfolio"/></a></li>
+          <li class="nav-pc"><a href="#projet">PROJET</a></li>
+          <li class="nav-mobile"><a href="#projet"><img src="https://img.icons8.com/bubbles/50/000000/work.png" alt="projet"/></a></li>
+          <li class="nav-pc"><a href="#contact">CONTACT</a></li>
+          <li class="nav-mobile" id="flex-end"><a href="telechargement/CV.pdf" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/resume.png" alt="cv"/></a></li>
+          <li class="nav-mobile" id="flex-end"><a href="tel:+33769550337"><img src="https://img.icons8.com/bubbles/50/000000/phone.png" alt="tel"/></a></li>
+          <li class="nav-mobile" id="flex-end"><a href="mailto:decrouelaura@gmail.com"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="email"/></a></li>
+        </ul>
       </div>
+    </nav>
+
+    <div id="body" class="page-body">
+      <span id="open" onclick="openNav()"><img id="reduir" src="https://img.icons8.com/bubbles/50/000000/menu.png" alt="menu"/></span>
+        <header id="header" role="banner">
+          <div class="opacity">
+            <h1 class="test">Decroue Laura</h1>
+            <h2 class="test"><strong>Intégratrice web junior</strong></h2>
+          </div>
+        </header>
+
+        <div class="page" role="main">
+          <section class="section-apropos" id="apropos">
+            <div class="container">
+              <div class="rowwrap">
+                <div class="rond">
+                  <img class="moi" src="img/moi/moi.jpg" alt="une photo de moi">
+                </div>
+                <div class="center-all ">
+                  <h2 class="titre titre-a-propos"><strong> A Propos</strong></h2>
+                  <p>Je suis intégratrice web junior de 24 ans.</p>
+                  <p>Pleine de créativité, je suis motivé et souhaite faire évoluer mes connaissances pour devenir Web Designer. </p>
+                </div>
+                <div class="center-a">
+                  <a href="telechargement/CV.pdf" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/resume.png" alt="cv"/></a>
+                  <div class="bouton">
+                    <input class="none" type="button" name="cv" value="">
+                    <label for="cv"><a href="telechargement/CV.pdf" target="_blank">Par ici</a></label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="section competences" >
+            <div class="container coda-section-content">
+              <div class="row">
+                <div class="respon">
+                  <button class="tablink" onclick="openPage('competences', this, '#EDF6DE')" id="defaultOpen"><strong style="color:#9443AB; font-family: 'Playlist-Script';">Compétences</strong></button>
+                  <button class="tablink" onclick="openPage('experiences', this, '#EDF6DE')"><strong style="color:#9443AB; font-family: 'Playlist-Script';">Experiences</strong></button>
+                  <button class="tablink" onclick="openPage('formation', this, '#EDF6DE')"><strong style="color:#9443AB; font-family: 'Playlist-Script';">Formation</strong></button>
+                </div>
+                <div class="tabcontent" id="competences">
+                  <div class="text">
+                    <ul>
+                      <li><figure class="circle"><p>Analysé le besoin du client</p></figure></li>
+                      <li><figure class="circle"><p> Esprit créatif</p></figure></li>
+                      <li><figure class="circle"><p> Curiosité</p></figure></li>
+                      <li><figure class="circle"><p> Persévérence</p></figure></li>
+                      <li><figure class="circle"><p> Sens de l'organisation</p></figure></li>
+                      <li><figure class="circle"><p> Sens relationnel</p></figure></li>
+                      <li><figure class="circle"><p> Travail et animation d'équipe</p></figure></li>
+                      <li><figure class="circle"><p> Soucie du travail bien fait</p></figure></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="tabcontent" id="experiences">
+                  <div class="ex p1">
+                    <div class="logo">
+                      <h2>Association Ageval - Valenciennes • 2020-2021</h2>
+                      <p>Atelier Numérique- développement, graphisme, ergonomie et indentité numérique d'un site web.</p>
+                    </div>
+                    <div class="logo">
+                      <img src="img/logoAgeval.png" alt="Logo de Ageval">
+                    </div>
+                  </div>
+
+                  <div class="ex p2">
+                    <h2>Stage: Les Anges Gardien d'Olivier - Velenciennes • 05/2011</h2>
+                    <p>Vente, soin, hygiène, alimentation des animaux.</p>
+                  </div>
+                  <div class="boubou">
+                    <img class="bouledog" src="img/bouledogue.jpg" alt="illutration bouledogue français">
+                  </div>
+                  <div class="ex p3">
+                    <h2>Stage: élevage canin professionnel - Corrèze • 05/2011</h2>
+                    <p>Vente, soin, hygiène, alimentation des animaux.</p>
+                  </div>
+                </div>
+                <div class="tabcontent" id="formation">
+                  <div class="diplome">
+                    <img class="dip" src="img/diplome.jpg"/ alt="illustration diplome">
+                  </div>
+                  <div class="text">
+                    <h2>Brevet des colléges-Condé sur l'Escaut • 2011</h2>
+                    <p> 3ème achevée-1er année de CAP-BEP</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="informatique" id="informatique">
+            <div class="container">
+              <div class="row">
+                <h2 class="titre titre-informatique"><strong>Informatique</strong></h2>
+                <div class="partage-de-3 col ta-center">
+                  <img class="width" src="https://img.icons8.com/color/144/000000/html-5.png"/>
+                  <h3>HTML 5</h3>
+                  <p>Connaissances de base</p>
+                </div>
+                <div class="partage-de-3 col ta-center">
+                  <img class="width" src="https://img.icons8.com/color/144/000000/css3.png"/>
+                  <h3>CSS 3</h3>
+                  <p>Connaissances de base</p>
+                </div>
+                <div class="partage-de-3 col ta-center">
+                  <img  class="width" src="https://img.icons8.com/color/144/000000/adobe-photoshop.png"/>
+                  <h3>Adobe Photoshop</h3>
+                  <p>Notion de base, ce logiciel a étais utilisé pour un projet.</p>
+                </div>
+                <div class="partage-de-3 col ta-center">
+                  <img  class="width" src="https://img.icons8.com/color/144/000000/adobe-illustrator.png"/>
+                  <h3>Adobe Illustrator</h3>
+                  <p>Notion de bases, ce logiciel a étais utilisé pour une projet.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="portfolio" id="portfolio">
+            <div class="container">
+              <h2 class="titre titre-portfolio"><strong>Portfolio</strong></h2>
+            </div>
+            <div class="slideshow-contener">
+              <div class="mySlides2 fade">
+                <div class="numbertext">1 / 17</div>
+                <img class="vertical" src="img/Fleurs-Fruits/img2.jpg" alt="fleur à moitier ouverte" style="width:100%">
+                <div class="text1"></div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">2 / 17</div>
+                <img class="vertical" src="img/Fleurs-Fruits/img3.jpg" alt="fleur orange sur les pétales et jaune a l'interrieur" style="width:100%">
+                <div class="text1"></div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">3 / 17</div>
+                <img class="vertical" src="img/Fleurs-Fruits/img4.jpg" alt="fleur jaune avec une touche de orange au milieu" style="width:100%">
+                <div class="text1"></div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">4 / 17</div>
+                <img class="vertical" src="img/Fleurs-Fruits/img5.jpg" alt="fleur jaune avec des gouttes d'Escaut" style="width:100%">
+                <div class="text1"></div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">5 / 17</div>
+                <img class="vertical" src="img/Fleurs-Fruits/img6.jpg" alt="fleur rose / mauve fermé" style="width:100%">
+                <div class="text1"></div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">6 / 17</div>
+                <img class="vertical" src="img/Fleurs-Fruits/img7.jpg" alt="fleur rose" style="width:100%">
+                <div class="text1"></div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">7 / 17</div>
+                <img class="vertical" src="img/Fleurs-Fruits/img8.jpg" alt="fleur mauve sur l'exterieur et blanc/vert a l'interieur" style="width:100%">
+                <div class="text1"></div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">8 / 17</div>
+                <img class="vertical" src="img/Fleurs-Fruits/img9.jpg" alt="fleur rose et blanc" style="width:100%">
+                <div class="text1"></div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">9 / 17</div>
+                <img class="vertical" src="img/Animaux-Insectes/img2.jpg" alt="abeille sur une fleur jaune" style="width:100%">
+                <div class="text1">Caption Three</div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">10 / 17</div>
+                <img class="vertical" src="img/Animaux-Insectes/img3.jpg" alt=" bourdon sur des fleur mauve" style="width:100%">
+                <div class="text1">Caption Three</div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">11 / 17</div>
+                <img class="vertical" src="img/Rue-Jardin/img3.jpg" alt="arbre vue de dessous" style="width:100%">
+                <div class="text1">Caption Three</div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">12 / 17</div>
+                <img class="vertical" src="img/Rue-Jardin/img4.jpg" alt="ruelle en noir et blanc" style="width:100%">
+                <div class="text1">Caption Three</div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">13 / 17</div>
+                <img class="vertical" src="img/Rue-Jardin/img10.jpg" alt="ruelle vue du sol" style="width:100%">
+                <div class="text1">Caption Three</div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">14 / 17</div>
+                <img class="vertical" src="img/Street-Art/img2.jpg" alt="femme avec les yeux fermé" style="width:100%">
+                <div class="text1">Caption Three</div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">15 / 17</div>
+                <img class="vertical" src="img/Street-Art/img3.jpg" alt="astronote" style="width:100%">
+                <div class="text1">Caption Three</div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">16 / 17</div>
+                <img class="vertical" src="img/Divers/img1.jpg" alt="crane photographier a une exposition de paris" style="width:100%">
+                <div class="text1">Caption Three</div>
+              </div>
+
+              <div class="mySlides2 fade">
+                <div class="numbertext">17 / 17</div>
+                <img class="vertical" src="img/Divers/img3.jpg" alt="sable et ciel" style="width:100%">
+                <div class="text1">Caption Three</div>
+              </div>
+
+              <div class="arrow">
+                <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+              </div>
+            </div>
+
+            <div class="slideshow-contener">
+              <div class="mySlides fade">
+                <div class="numbertext">1 / 40</div>
+                <img class="vertical" src="img/Dessins/img1.jpg" alt="femme avec maquillage de crâne mexicanne avec un ancienne montre et des bougies" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 40</div>
+                <img class="vertical" src="img/Dessins/img2.jpg" alt="femme tatoué avec une casquette" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 40</div>
+                <img class="vertical" src="img/Dessins/img3.jpg" alt="femme" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 40</div>
+                <img class="vertical" src="img/Dessins/img4.jpg" alt="trompe oeil" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">5 / 40</div>
+                <img class="vertical" src="img/Dessins/img5.jpg" alt="crane" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">6 / 40</div>
+                <img class="vertical" src="img/Dessins/img6.jpg" alt="scarabé" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">7 / 40</div>
+                <img class="vertical" src="img/Dessins/img7.jpg" alt="escalier en trompe oeil" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">8 / 40</div>
+                <img class="vertical" src="img/Dessins/img8.jpg" alt="3D" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">9 / 40</div>
+                <img class="vertical" src="img/Dessins/img9.jpg" alt="3D" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">10 / 40</div>
+                <img class="vertical" src="img/Dessins/img10.jpg" alt="une parti d'un visage de femme asiatique" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">11 / 40</div>
+                <img class="vertical" src="img/Dessins/img11.jpg" alt="papillon poan" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">12 / 40</div>
+                <img class="vertical" src="img/Dessins/img12.jpg" alt="fleurs de lotus" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">13 / 40</div>
+                <img class="vertical" src="img/Dessins/img13.jpg" alt="ailes d'ange"  style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">14 / 40</div>
+                <img class="vertical" src="img/Dessins/img14.jpg" alt="(one open a time) en ecriture gothique" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">15 / 40</div>
+                <img class="vertical" src="img/Dessins/img15.jpg" alt="tatouages old school" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">16 / 40</div>
+                <img class="vertical" src="img/Dessins/img16.jpg" alt="triangle avec une mer mouvementé et une lune rouge dans un cercle" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">17 / 40</div>
+                <img class="vertical" src="img/Dessins/img17.jpg" alt="crâne mexican avec tête de hibou" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">18 / 40</div>
+                <img class="vertical" src="img/Dessins/img18.jpg" alt="divers dessin kawaii, logo, tatouages" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">19 / 40</div>
+                <img class="vertical" src="img/Dessins/img19.jpg" alt="3D, tatouage, trompe oeil" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">20 / 40</div>
+                <img class="vertical" src="img/Dessins/img20.jpg" alt="tatouage (miroir) jour/nuit" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">21 / 40</div>
+                <img class="vertical" src="img/Dessins/img21.jpg" alt="étoile et pastéque" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">22 / 40</div>
+                <img class="vertical" src="img/Dessins/img22.jpg" alt="trompe oeil" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">23 / 40</div>
+                <img class="vertical" src="img/Dessins/img23.jpg" alt="morceau de glace en mer" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">24 / 40</div>
+                <img class="vertical" src="img/Dessins/img24.jpg" alt="un loup avec la lune" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">25 / 40</div>
+                <img class="vertical" src="img/Dessins/img25.jpg" alt="tête de mickey avec le chateau de walt disney" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">26 / 40</div>
+                <img class="vertical" src="img/Dessins/img26.jpg" alt="une fleur avec un pistolé" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">27 / 40</div>
+                <img class="vertical" src="img/Dessins/img27.jpg" alt="machine a tatoué avec des fleur autour" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">28 / 40</div>
+                <img class="vertical" src="img/Dessins/img28.jpg" alt=" une baleine dans un ampoule" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">29 / 40</div>
+                <img class="vertical" src="img/Dessins/img29.jpg" alt="une lune avec des feuille et un étoile" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">30 / 40</div>
+                <img class="vertical" src="img/Dessins/img30.jpg" alt="materiel de wija" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">31 / 40</div>
+                <img class="vertical" src="img/Dessins/img31.jpg" alt="potion d'amour" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">32 / 40</div>
+                <img class="vertical" src="img/Dessins/img32.jpg" alt="fiole avec potion" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">33 / 40</div>
+                <img class="vertical" src="img/Dessins/img33.jpg" alt="hippocampe, un roller, rouge à lévre siréne" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">34 / 40</div>
+                <img class="vertical" src="img/Dessins/img34.jpg" alt="cles avec des ailes" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">35 / 40</div>
+                <img class="vertical" src="img/Dessins/img35.jpg" alt="coquillage avec sa perle bleu" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">36 / 40</div>
+                <img class="vertical" src="img/Dessins/img36.jpg" alt="pieuvre" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">37 / 40</div>
+                <img class="vertical" src="img/Dessins/img37.jpg" alt="masque chinois" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">38 / 40</div>
+                <img class="vertical" src="img/Dessins/img38.jpg" alt="cobra" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">39 / 40</div>
+                <img class="vertical" src="img/Dessins/img39.jpg" alt="fleurs" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">40 / 40</div>
+                <img class="vertical" src="img/Dessins/img40.jpg" alt="tatouage avec le soleil et la lune" style="width:100%">
+                <div class="text1"></div>
+              </div>
+              <div class="arrow">
+                <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+              </div>
+            </div>
+
+          </section>
+
+          <section class="projet" id="projet" style="display:block;">
+            <div class="container">
+              <div>
+                <h2 class="titre titre-projet">Projet</h2>
+              </div>
+              <div class="inline-block">
+                <img src="img/laura-decroue-double-exposition.png" alt="double explostion d'une femme et de New York" style="width: 100%;">
+              </div>
+              <div class="inline-block ct">
+                <img src="img/laura-decroue-007-optimisé.png" alt="affiche d'un film 007" style="width:50%; text-align:center;">
+              </div>
+              <div class="inline-block" >
+                <img src="img/laura-decroue-foret1.png" alt="forêt en période de neige" style="width:100%;">
+              </div>
+            </div>
+          </section>
+
+          <section class="contact" id="contact">
+            <div class="container">
+              <h2 class="titre titre-contact"><strong>Contact</strong></h2>
+              <div class="telephone">
+                <a href="tel:+33769550337"><img src="https://img.icons8.com/bubbles/100/000000/phone.png" alt="tel"/></a>
+                <p>Voici mon numéro de téléphone.</p>
+              </div>
+              <div class="email">
+                <a href="mailto:decrouelaura@gmail.com"><img src="https://img.icons8.com/bubbles/100/000000/gmail.png" alt="email"/></a>
+                <p>Voici mon email.</p>
+              </div>
+            </div>
+          </section>
+
+        </div>
     </div>
 
     <footer>
@@ -512,9 +511,9 @@
         <p>Decroue Laura 2020 • Tous droits réservé.</p>
       </div>
       <div id="reseau">
-        <a href="https://www.linkedin.com/in/laura-decroue-28824b1ba/"><img class="reseau" src="https://img.icons8.com/bubbles/50/000000/linkedin.png"/></a>
+        <a href="https://www.linkedin.com/in/laura-decroue-28824b1ba/"><img class="reseau" src="https://img.icons8.com/bubbles/50/000000/linkedin.png" alt="linkedin"/></a>
 
-        <a href="https://github.com/DecroueLaura"><img class="reseau" src="https://img.icons8.com/bubbles/50/000000/github.png"/></a>
+        <a href="https://github.com/DecroueLaura"><img class="reseau" src="https://img.icons8.com/bubbles/50/000000/github.png" alt="github"/></a>
 
       </div>
     </footer>
