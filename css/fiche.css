@@ -164,8 +164,6 @@ header>div>h2{
 }
 .rond{
 	overflow: hidden;
-	-webkit-border-radius:200px;
-	-moz-border-radius:200px;
 	border-radius: 200px;
 	width: 400px;
 	height: 400px;
@@ -281,8 +279,6 @@ label>a:hover {
 }
 .bouledog{
 	overflow: hidden;
-	-webkit-border-radius:150px;
-	-moz-border-radius:150px;
 	border-radius: 150px;
 	width: 300px;
 	height: 300px;
@@ -295,8 +291,6 @@ label>a:hover {
 
 .dip{
 	overflow: hidden;
-	-webkit-border-radius:150px;
-	-moz-border-radius:150px;
 	border-radius: 150px;
 	width: 250px;
 	height: 250px;
@@ -409,16 +403,10 @@ label>a:hover {
 
 /* Fading animation */
 .fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
 
 @keyframes fade {
   from {opacity: .4}
@@ -437,7 +425,10 @@ label>a:hover {
 .ct{
 	text-align: center;
 }
+/* templetenoel */
 
+
+/* fin templetenoel */
 /* fin projet */
 /* contact */
 

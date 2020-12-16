@@ -1,16 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <meta name='viewport' content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <title>Decroue-Laura</title>
     <link rel="stylesheet" href="css/fiche.css">
-    <link rel = "preconnect" href = "https://fonts.gstatic.com">
-    <link href = "https://fonts.googleapis.com/css2? family = Fait maison + Apple & display = swap" rel = "feuille de style">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Faitmaison+Apple&display=swap" rel = "feuille de style">
     <!-- <a href="https://icons8.com/icon/NDIMAFy35qo3/image">Image icon by Icons8</a> -->
   </head>
   <body>
-    <nav id="nav" class="navbar" role="navigation">
+    <nav id="nav" class="navbar" >
       <div class="contener_nav">
         <ul class="nav">
           <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="https://img.icons8.com/bubbles/50/000000/cancel.png" alt="close"/></a></li>
@@ -25,16 +25,16 @@
           <li class="nav-pc"><a href="#projet">PROJET</a></li>
           <li class="nav-mobile"><a href="#projet"><img src="https://img.icons8.com/bubbles/50/000000/work.png" alt="projet"/></a></li>
           <li class="nav-pc"><a href="#contact">CONTACT</a></li>
-          <li class="nav-mobile" id="flex-end"><a href="telechargement/CV.pdf" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/resume.png" alt="cv"/></a></li>
-          <li class="nav-mobile" id="flex-end"><a href="tel:+33769550337"><img src="https://img.icons8.com/bubbles/50/000000/phone.png" alt="tel"/></a></li>
-          <li class="nav-mobile" id="flex-end"><a href="mailto:decrouelaura@gmail.com"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="email"/></a></li>
+          <li class="nav-mobile" ><a href="telechargement/CV.pdf" target="_blank"><img src="https://img.icons8.com/bubbles/50/000000/resume.png" alt="cv"/></a></li>
+          <li class="nav-mobile" ><a href="tel:+33769550337"><img src="https://img.icons8.com/bubbles/50/000000/phone.png" alt="tel"/></a></li>
+          <li class="nav-mobile"><a href="mailto:decrouelaura@gmail.com"><img src="https://img.icons8.com/bubbles/50/000000/gmail.png" alt="email"/></a></li>
         </ul>
       </div>
     </nav>
 
     <div id="body" class="page-body">
       <span id="open" onclick="openNav()"><img id="reduir" src="https://img.icons8.com/bubbles/50/000000/menu.png" alt="menu"/></span>
-        <header id="header" role="banner">
+        <header id="header" >
           <div class="opacity">
             <h1 class="test">Decroue Laura</h1>
             <h2 class="test"><strong>Intégratrice web junior</strong></h2>
@@ -56,8 +56,8 @@
                 <div class="center-a">
                   <a href="telechargement/CV.pdf" target="_blank"><img src="https://img.icons8.com/bubbles/100/000000/resume.png" alt="cv"/></a>
                   <div class="bouton">
-                    <input class="none" type="button" name="cv" value="">
-                    <label for="cv"><a href="telechargement/CV.pdf" target="_blank">Par ici</a></label>
+                    <input class="none" type="button" name="cv" id="c-v" value="&#160;" >
+                    <label for="c-v"><a href="telechargement/CV.pdf" target="_blank">Par ici</a></label>
                   </div>
                 </div>
               </div>
@@ -111,7 +111,7 @@
                 </div>
                 <div class="tabcontent" id="formation">
                   <div class="diplome">
-                    <img class="dip" src="img/diplome.jpg"/ alt="illustration diplome">
+                    <img class="dip" src="img/diplome.jpg" alt="illustration diplome">
                   </div>
                   <div class="text">
                     <h2>Brevet des colléges-Condé sur l'Escaut • 2011</h2>
@@ -127,22 +127,22 @@
               <div class="row">
                 <h2 class="titre titre-informatique"><strong>Informatique</strong></h2>
                 <div class="partage-de-3 col ta-center">
-                  <img class="width" src="https://img.icons8.com/color/144/000000/html-5.png"/>
+                  <img class="width" src="https://img.icons8.com/color/144/000000/html-5.png" alt="logo HTML"/>
                   <h3>HTML 5</h3>
                   <p>Connaissances de base</p>
                 </div>
                 <div class="partage-de-3 col ta-center">
-                  <img class="width" src="https://img.icons8.com/color/144/000000/css3.png"/>
+                  <img class="width" src="https://img.icons8.com/color/144/000000/css3.png" alt="logo CSS"/>
                   <h3>CSS 3</h3>
                   <p>Connaissances de base</p>
                 </div>
                 <div class="partage-de-3 col ta-center">
-                  <img  class="width" src="https://img.icons8.com/color/144/000000/adobe-photoshop.png"/>
+                  <img  class="width" src="https://img.icons8.com/color/144/000000/adobe-photoshop.png" alt=" logo Photoshop"/>
                   <h3>Adobe Photoshop</h3>
                   <p>Notion de base, ce logiciel a étais utilisé pour un projet.</p>
                 </div>
                 <div class="partage-de-3 col ta-center">
-                  <img  class="width" src="https://img.icons8.com/color/144/000000/adobe-illustrator.png"/>
+                  <img  class="width" src="https://img.icons8.com/color/144/000000/adobe-illustrator.png" alt="logo Illustrator"/>
                   <h3>Adobe Illustrator</h3>
                   <p>Notion de bases, ce logiciel a étais utilisé pour une projet.</p>
                 </div>
@@ -485,6 +485,21 @@
               </div>
               <div class="inline-block" >
                 <img src="img/laura-decroue-foret1.png" alt="forêt en période de neige" style="width:100%;">
+              </div>
+            </div>
+            <div class="w3-container">
+              <h2>W3.CSS Modal Image</h2>
+              <p>Click on the image to display it in full size:</p>
+
+              <img src="img/mockup.jpg" style="width:30%;cursor:zoom-in"
+              onclick="document.getElementById('modal01').style.display='block'">
+
+              <div id="modal01" class="w3-modal" onclick="this.style.display='none'">
+                <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
+                <div class="w3-modal-content w3-animate-zoom">
+                  <img src="img/temp1.png" alt="capture 1 du templete mail de noël" style="width:600px">
+                  <img src="img/temp2.png" alt="capture 2 du templete mail de noël" style="width:600px;">
+                </div>
               </div>
             </div>
           </section>
