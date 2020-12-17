@@ -52,12 +52,17 @@ table {
 body{
 	width: 100%;
 }
+section{
+	display:block;
+	padding: 50px 0;
+	/* margin: 25px 0; */
+}
 .titre{
 	font-family: 'Playlist-Script';
 	color: #9443AB;
 	text-align: center;
 	font-size: 40px;
-	margin: 75px;
+	margin: 0  0 50px  0;
 }
 #reduir{
 	width: 85%;
@@ -107,7 +112,7 @@ body{
 	width: 100%;
 }
 
-span{
+#body>span{
 	position: fixed;
 	margin: 6px;
 	left: 55px;
@@ -117,7 +122,7 @@ span{
 .navmobile{
 	display: none;
 }
-header{
+#header{
 	background-image: url(../img/banniere.jpg);
 	background-repeat: no-repeat;
 	background-size: 100%;
@@ -149,9 +154,7 @@ header>div>h2{
 }
 /* fin du header */
 /* 1er section A PROPOS */
-.section-apropos{
-	display: block;
-}
+
 .rowwrap{
 	margin: 20px 0 0 0;
 	display:flex;
@@ -171,7 +174,7 @@ header>div>h2{
 }
 .center-all>p{
 	text-align:center;
-	margin: 40px;
+	padding: 20px;
 	font-size: 18px;
 }
 .center-a{
@@ -188,7 +191,7 @@ header>div>h2{
 	margin:35px;
 	text-align: center;
 }
-label>a{
+.center-all a:last-child{
 	font-family: 'Playlist-Script';
 	font-size: 35px;
 	text-decoration: none;
@@ -202,7 +205,12 @@ label>a{
   border-radius: 50px;
   box-shadow: 0 9px #999;
 }
-label>a:hover {
+.center-all a{
+	display:block;
+	width: 40%;
+	margin: 50px auto 0;
+}
+.center-all a:hover {
 	background-color: #9443AB;
 	color: #EDF6DE;
 }
@@ -252,9 +260,7 @@ label>a:hover {
 #competences, #experiences, #formation{
 	background-color: #EDF6DE;
 }
-.competences{
-	display: block;
-}
+
 .text li{
 	display: inline-block;
 	margin:50px 15px;
@@ -297,9 +303,7 @@ label>a:hover {
 }
 /* fin section 2 */
 /* formation */
-.titre-formation{
-	margin:25px;
-}
+
 .text h2{
 	font-weight: bolder;
 	margin:15px 0px;
@@ -308,9 +312,7 @@ label>a:hover {
 
 /* fin formation */
 /* section 3 INFORMATIQUE */
-.titre-informatique{
-	margin:25px;
-}
+
 
 .col .width{
 	width: 50%;
@@ -432,9 +434,7 @@ label>a:hover {
 /* fin projet */
 /* contact */
 
-.contact{
-	margin: 150px 0px;
-}
+
 .telephone{
 	display: inline-block;
 	width: 50%;
@@ -520,6 +520,9 @@ justify-content: space-between;
 	.navmobile>ul{
 		list-style-type: none;
 	}
+	#body>span{
+		left:inherit;
+	}
 /* header */
 	header>div>h1{
 		font-size: 35px;
@@ -528,13 +531,16 @@ justify-content: space-between;
 		font-size: 18px;
 	}
 	.opacity{
-		top: 155px;
+		top: 126px;
 	}
-	header{
+	#header{
 		height: 15em;
 	}
 	/* fin  header */
 	/* a propos */
+	.center-all{
+		padding: 50px 0 0 0;
+	}
 	.rond{
 		width: 200px;
 		height: 200px;
@@ -554,6 +560,9 @@ justify-content: space-between;
 	.circle{
 		width: 150px;
 		height: 150px;
+	}
+	.text li{
+		margin:10px 5px;
 	}
 	/* fin Tab */
 	/*informatique  */
@@ -592,4 +601,16 @@ justify-content: space-between;
 }
 #reseau{
 	flex-direction: column-reverse;
+}
+/* Templete MAil Noël */
+.blockquoteartdevivre{
+  color: #457DBB;
+  font-size: 18px;
+  line-height: 25px;
+}
+.blockquoteartdevivre h8{
+  font-family: playfair_displayregular, sans-serif;
+  font-size: 36px;
+  margin: 10px 10px;
+  color: #457DBB;
 }
