@@ -424,17 +424,24 @@ header>div>h2{
 /* projet */
 .inline-block{
 	display: inline-block;
+	width: 49%;
+}
+
+/* .ct{
+	display: inline-block;
+	background-image: url("../img/laura-decroue-007-optimisé.png");
+	background-repeat: no-repeat;
+	background-size: cover;
 	width: 32%;
-}
-.inline-block:hover{
-	box-shadow:8px 8px 10px 0 rgba(0,0,0,0.5);
-}
-.ct{
-	text-align: center;
-}
+	height: 321px;
+
+} */
 /* templetenoel */
 
-
+.respont{
+	width: 50%;
+	cursor: zoom-in;
+}
 /* fin templetenoel */
 /* fin projet */
 /* contact */
@@ -596,6 +603,10 @@ justify-content: space-between;
 	width: 100%;
 	margin: 15px 0;
 }
+.respont{
+	width: 100%;
+}
+
 /* fin projet */
 /* footer */
 .mention>p{
