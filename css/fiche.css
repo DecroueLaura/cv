@@ -293,7 +293,9 @@ header>div>h2{
 	text-align: center;
 	margin: 50px 20px;
 }
-
+.padding{
+	padding:25px;
+}
 
 .dip{
 	overflow: hidden;
@@ -463,7 +465,7 @@ justify-content: space-between;
 }
 .mention{
 	color: white;
-	width: 79%;
+	width: 100%;
 }
 .mention>p{
 	text-align: center;
