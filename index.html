@@ -3,9 +3,11 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Decroue-Laura</title>
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
     <link rel="stylesheet" href="css/fiche.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap.min.css"> -->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Faitmaison+Apple&display=swap" rel = "feuille de style">
     <link href="https://fonts.googleapis.com/css2?family=Clicker+Script&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
@@ -15,7 +17,7 @@
     <nav id="nav" class="navbar" >
       <div class="contener_nav">
         <ul class="nav">
-          <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()"><img src="https://img.icons8.com/bubbles/50/000000/cancel.png" alt="close"/></a></li>
+          <li><a href="javascript:void(0)" class="" onclick="closeNav()"><img src="https://img.icons8.com/bubbles/50/000000/cancel.png" alt="close"/></a></li>
           <li class="nav-pc"><a href="#apropos">A PROPOS</a></li>
           <li class="nav-mobile"><a href="#apropos"><img src="https://img.icons8.com/bubbles/50/000000/brown-hair-business-lady-in-red-shirt.png" alt="a propos"/></a></li>
           <li class="nav-pc"><a href="#competences">COMPETENCES/<br>EXPERIENCES</a></li>
@@ -52,7 +54,7 @@
                 </div>
                 <div class="center-all ">
                   <h2 class="titre titre-a-propos"><strong> A Propos</strong></h2>
-                  <p>Je suis intégratrice web junior de 24 ans.</p>
+                  <p>Je suis intégratrice web junior de <span id="age"></span> ans.</p>
                   <p>Pleine de créativité, je suis motivée et souhaite faire évoluer mes connaissances pour devenir Web Designeuse. </p>
                   <a href="telechargement/decroue-laura-CV.pdf" target="_blank">CV</a>
 
@@ -96,7 +98,7 @@
                       <img src="img/logoAgeval.png" alt="Logo de Ageval">
                     </div>
                   </div>
-                  
+
                   <div class="ex p2">
                     <h2>Stage: Les Anges Gardien d'Olivier - Velenciennes • 05/2011</h2>
                     <p>Vente, soin, hygiène, alimentation des animaux.</p>
@@ -122,6 +124,7 @@
             </div>
           </section>
 
+
           <section class="informatique" id="informatique">
             <div class="container">
               <div class="row">
@@ -137,6 +140,11 @@
                   <p>Connaissances de base</p>
                 </div>
                 <div class="partage-de-3 col ta-center">
+                  <img class="width"src="https://img.icons8.com/color/144/000000/javascript.png" alt="loge JavaScript"/>
+                  <h3>JavaScript</h3>
+                  <p>Connaissances de base</p>
+                </div>
+                <div class="partage-de-3 col ta-center">
                   <img  class="width" src="https://img.icons8.com/color/144/000000/adobe-photoshop.png" alt=" logo Photoshop"/>
                   <h3>Adobe Photoshop</h3>
                   <p>Notion de base, ce logiciel a étais utilisé pour un projet.</p>
@@ -146,364 +154,244 @@
                   <h3>Adobe Illustrator</h3>
                   <p>Notion de bases, ce logiciel a étais utilisé pour un projet.</p>
                 </div>
+                <div class="partage-de-3 col ta-center">
+                  <img  class="width"src="https://img.icons8.com/color/144/000000/adobe-xd.png" alt="logo adobe XD"/>
+                  <h3>Adobe XD</h3>
+                  <p>Notion de bases</p>
+                </div>
+                <div class="partage-de-3 col ta-center">
+                  <img  class="width" src="https://img.icons8.com/color/144/000000/wordpress.png" alt="logo Wordpress"/>
+                  <h3>Wordpress</h3>
+                  <p>Utilisé pour un projet fictif.</p>
+                </div>
               </div>
             </div>
           </section>
 
-          <section class="portfolio" id="portfolio">
-            <div class="container">
-              <h2 class="titre titre-portfolio"><strong>Portfolio</strong></h2>
-            </div>
-            <div class="slideshow-contener">
-              <div class="mySlides2 fade">
-                <div class="numbertext">1 / 17</div>
-                <img class="vertical" src="img/Fleurs-Fruits/img2.jpg" alt="fleur à moitier ouverte" style="width:100%">
-                <div class="text1"></div>
-              </div>
 
-              <div class="mySlides2 fade">
-                <div class="numbertext">2 / 17</div>
-                <img class="vertical" src="img/Fleurs-Fruits/img3.jpg" alt="fleur orange sur les pétales et jaune a l'interrieur" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">3 / 17</div>
-                <img class="vertical" src="img/Fleurs-Fruits/img4.jpg" alt="fleur jaune avec une touche de orange au milieu" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">4 / 17</div>
-                <img class="vertical" src="img/Fleurs-Fruits/img5.jpg" alt="fleur jaune avec des gouttes d'Escaut" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">5 / 17</div>
-                <img class="vertical" src="img/Fleurs-Fruits/img6.jpg" alt="fleur rose / mauve fermé" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">6 / 17</div>
-                <img class="vertical" src="img/Fleurs-Fruits/img7.jpg" alt="fleur rose" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">7 / 17</div>
-                <img class="vertical" src="img/Fleurs-Fruits/img8.jpg" alt="fleur mauve sur l'exterieur et blanc/vert a l'interieur" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">8 / 17</div>
-                <img class="vertical" src="img/Fleurs-Fruits/img9.jpg" alt="fleur rose et blanc" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">9 / 17</div>
-                <img class="vertical" src="img/Animaux-Insectes/img2.jpg" alt="abeille sur une fleur jaune" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">10 / 17</div>
-                <img class="vertical" src="img/Animaux-Insectes/img3.jpg" alt=" bourdon sur des fleur mauve" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">11 / 17</div>
-                <img class="vertical" src="img/Rue-Jardin/img3.jpg" alt="arbre vue de dessous" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">12 / 17</div>
-                <img class="vertical" src="img/Rue-Jardin/img4.jpg" alt="ruelle en noir et blanc" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">13 / 17</div>
-                <img class="vertical" src="img/Rue-Jardin/img10.jpg" alt="ruelle vue du sol" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">14 / 17</div>
-                <img class="vertical" src="img/Street-Art/img2.jpg" alt="femme avec les yeux fermé" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">15 / 17</div>
-                <img class="vertical" src="img/Street-Art/img3.jpg" alt="astronote" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">16 / 17</div>
-                <img class="vertical" src="img/Divers/img1.jpg" alt="crane photographier a une exposition de paris" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="mySlides2 fade">
-                <div class="numbertext">17 / 17</div>
-                <img class="vertical" src="img/Divers/img3.jpg" alt="sable et ciel" style="width:100%">
-                <div class="text1"></div>
-              </div>
-
-              <div class="arrow">
-                <a class="prev" onclick="plusSlides(-1,1)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1,1)">&#10095;</a>
+          <div>
+            <h2 class="port" id="portfolio">Portfolio</h2>
+          </div>
+          <section class="tousModal" >
+            <div class="flex">
+              <img id="myImg" src="img/Illustrator/ois.png" alt="réalisation de logo sur Illustrator">
+              <p>Illustrator</p>
+              <div class="modal" id="myModal">
+                <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+                <div class="modal-content" id="img0">
+                  <div class="carte">
+                    <div class="cart">
+                      <p>Réalisation de logo fictif avec Illstrator au sein de l'association Ageval</p>
+                    </div>
+                  </div>
+                  <div class="">
+                    <img src="img/Illustrator/decroue-laura-oiseau.png" alt="">
+                  </div>
+                  <div class="">
+                    <img src="img/Illustrator/decroue-laura-ecriture-web-design.png"  alt="">
+                  </div>
+                  <div class="">
+                    <img src="img/Illustrator/café.png" alt="">
+                  </div>
+                </div>
               </div>
             </div>
 
-            <div class="slideshow-contener">
-              <div class="mySlides fade">
-                <div class="numbertext">1 / 40</div>
-                <img class="vertical" src="img/Dessins/img1.jpg" alt="femme avec maquillage de crâne mexicanne avec un ancienne montre et des bougies" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">2 / 40</div>
-                <img class="vertical" src="img/Dessins/img2.jpg" alt="femme tatoué avec une casquette" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">3 / 40</div>
-                <img class="vertical" src="img/Dessins/img3.jpg" alt="femme" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">4 / 40</div>
-                <img class="vertical" src="img/Dessins/img4.jpg" alt="trompe oeil" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">5 / 40</div>
-                <img class="vertical" src="img/Dessins/img5.jpg" alt="crane" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">6 / 40</div>
-                <img class="vertical" src="img/Dessins/img6.jpg" alt="scarabé" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">7 / 40</div>
-                <img class="vertical" src="img/Dessins/img7.jpg" alt="escalier en trompe oeil" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">8 / 40</div>
-                <img class="vertical" src="img/Dessins/img8.jpg" alt="3D" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">9 / 40</div>
-                <img class="vertical" src="img/Dessins/img9.jpg" alt="3D" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">10 / 40</div>
-                <img class="vertical" src="img/Dessins/img10.jpg" alt="une parti d'un visage de femme asiatique" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">11 / 40</div>
-                <img class="vertical" src="img/Dessins/img11.jpg" alt="papillon poan" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">12 / 40</div>
-                <img class="vertical" src="img/Dessins/img12.jpg" alt="fleurs de lotus" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">13 / 40</div>
-                <img class="vertical" src="img/Dessins/img13.jpg" alt="ailes d'ange"  style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">14 / 40</div>
-                <img class="vertical" src="img/Dessins/img14.jpg" alt="(one open a time) en ecriture gothique" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">15 / 40</div>
-                <img class="vertical" src="img/Dessins/img15.jpg" alt="tatouages old school" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">16 / 40</div>
-                <img class="vertical" src="img/Dessins/img16.jpg" alt="triangle avec une mer mouvementé et une lune rouge dans un cercle" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">17 / 40</div>
-                <img class="vertical" src="img/Dessins/img17.jpg" alt="crâne mexican avec tête de hibou" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">18 / 40</div>
-                <img class="vertical" src="img/Dessins/img18.jpg" alt="divers dessin kawaii, logo, tatouages" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">19 / 40</div>
-                <img class="vertical" src="img/Dessins/img19.jpg" alt="3D, tatouage, trompe oeil" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">20 / 40</div>
-                <img class="vertical" src="img/Dessins/img20.jpg" alt="tatouage (miroir) jour/nuit" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">21 / 40</div>
-                <img class="vertical" src="img/Dessins/img21.jpg" alt="étoile et pastéque" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">22 / 40</div>
-                <img class="vertical" src="img/Dessins/img22.jpg" alt="trompe oeil" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">23 / 40</div>
-                <img class="vertical" src="img/Dessins/img23.jpg" alt="morceau de glace en mer" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">24 / 40</div>
-                <img class="vertical" src="img/Dessins/img24.jpg" alt="un loup avec la lune" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">25 / 40</div>
-                <img class="vertical" src="img/Dessins/img25.jpg" alt="tête de mickey avec le chateau de walt disney" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">26 / 40</div>
-                <img class="vertical" src="img/Dessins/img26.jpg" alt="une fleur avec un pistolé" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">27 / 40</div>
-                <img class="vertical" src="img/Dessins/img27.jpg" alt="machine a tatoué avec des fleur autour" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">28 / 40</div>
-                <img class="vertical" src="img/Dessins/img28.jpg" alt=" une baleine dans un ampoule" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">29 / 40</div>
-                <img class="vertical" src="img/Dessins/img29.jpg" alt="une lune avec des feuille et un étoile" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">30 / 40</div>
-                <img class="vertical" src="img/Dessins/img30.jpg" alt="materiel de wija" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">31 / 40</div>
-                <img class="vertical" src="img/Dessins/img31.jpg" alt="potion d'amour" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">32 / 40</div>
-                <img class="vertical" src="img/Dessins/img32.jpg" alt="fiole avec potion" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">33 / 40</div>
-                <img class="vertical" src="img/Dessins/img33.jpg" alt="hippocampe, un roller, rouge à lévre siréne" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">34 / 40</div>
-                <img class="vertical" src="img/Dessins/img34.jpg" alt="cles avec des ailes" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">35 / 40</div>
-                <img class="vertical" src="img/Dessins/img35.jpg" alt="coquillage avec sa perle bleu" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">36 / 40</div>
-                <img class="vertical" src="img/Dessins/img36.jpg" alt="pieuvre" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">37 / 40</div>
-                <img class="vertical" src="img/Dessins/img37.jpg" alt="masque chinois" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">38 / 40</div>
-                <img class="vertical" src="img/Dessins/img38.jpg" alt="cobra" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">39 / 40</div>
-                <img class="vertical" src="img/Dessins/img39.jpg" alt="fleurs" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="mySlides fade">
-                <div class="numbertext">40 / 40</div>
-                <img class="vertical" src="img/Dessins/img40.jpg" alt="tatouage avec le soleil et la lune" style="width:100%">
-                <div class="text1"></div>
-              </div>
-              <div class="arrow">
-                <a class="prev" onclick="plusSlides(-1,0)">&#10094;</a>
-                <a class="next" onclick="plusSlides(1,0)">&#10095;</a>
+            <div class="flex">
+              <img id="myImg2" src="img/photoshop/pho.png" alt="réalisation photoshop">
+              <p>Photoshop</p>
+              <div class="modal" id="myModal2">
+                <span class="close" onclick="document.getElementById('myModal2').style.display='none'">&times;</span>
+                <div class="modal-content" id="img02">
+                  <div>
+                    <!-- modal photo -->
+                    <img id="myImg21" src="img/photoshop/laura-decroue-007-optimisé.png"  alt="">
+                    <div class="modal" id='myModal21'>
+                      <span class="close" onclick="document.getElementById('myModal21').style.display='none'">&times;</span>
+                      <div class="modal-content" id='img21'>
+                        <img src="img/photoshop/laura-decroue-007-optimisé.png" style="width:100%;" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="carte">
+                    <div class="cart">
+                      <p>Réalisation fictif avec photoshop au sein de l'association Ageval</p>
+                    </div>
+                  </div>
+                  <div >
+                    <!-- modal photo -->
+                    <img id="myImg22"src="img/photoshop/laura-decroue-double-exposition.png"  alt="">
+                    <div class="modal" id="myModal22">
+                      <span class="close" onclick="document.getElementById('myModal22').style.display='none'">&times;</span>
+                      <div class="modal-content" id="img22">
+                        <img src="img/photoshop/laura-decroue-double-exposition.png" style="width:inherit;" alt="">
+                      </div>
+                    </div>
+                  </div>
+                  <div >
+                    <!-- modal photo -->
+                    <img id="myImg23"src="img/photoshop/laura-decroue-foret1.png" alt="">
+                    <div class="modal" id="myModal23">
+                      <span class="close" onclick="document.getElementById('myModal23').style.display='none'">&times;</span>
+                      <div class="modal-content" id="img23">
+                        <img src="img/photoshop/laura-decroue-foret1.png" style="width:inherit;" alt="">
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
-          </section>
-
-          <section class="projet" id="projet" style="display:block;">
-            <div class="container">
-              <div>
-                <h2 class="titre titre-projet">Projet</h2>
-              </div>
-              <div class="inline-block">
-                <img src="img/laura-decroue-double-exposition.png" alt="double explostion d'une femme et de New York" style="width: 100%;">
-              </div>
-
-              <!-- <div class="inline-block ct" onclick="document.getElementById('myModal').style.display='block'" style="cursor:zoom-in;">
-              </div>
-              <div class="modal" id="myModal" onclick="this.style.display='none'" style="display:none;">
-                <span class="close">&times;</span>
-                <img class="modal-contente" src="img/laura-decroue-007-optimisé.png" alt=" affiche de 007" style="width:50%;">
-                <div id="caption"></div>
-              </div> -->
-
-              <div class="inline-block" >
-                <img src="img/laura-decroue-foret1.png" alt="forêt en période de neige" style="width:100%;">
+            <div class="flex">
+              <img id="myImg3" src="img/Affiches/affiche.png" alt="Modal pour présenté mes affiches réalisé">
+              <p>Projets</p>
+              <div class="modal" id="myModal3">
+                <span class="close" onclick="document.getElementById('myModal3').style.display='none'">&times;</span>
+                <div class="modal-content" id="img3">
+                  <div class="flex">
+                    <img id="myImg30" src="img/Affiches/travail.png" alt="Affiche Ageval">
+                    <div class="modal" id="myModal30">
+                      <span class="close" onclick="document.getElementById('myModal30').style.display='none'">&times;</span>
+                      <div class="modal-content" id="img30">
+                        <div>
+                          <div class="">
+                            <img src="img/Affiches/nico.png" style="width:75%; height:75%; "alt="">
+                          </div>
+                        </div>
+                        <div style="background-Color:#9443AB;">
+                          <h2 class="titreModal" style="color:white;">Positionnement vers l'Emploi</h2>
+                          <p class="paraModal" style="color:white;">Affiche réalisé avec photoshop, pour Nicola BRASSELET (conseillier en insertion professionnel) à l'Association Ageval.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex">
+                    <img id="myImg31" src="img/Affiches/fermeP.png" alt="">
+                    <div class="modal" id="myModal31">
+                      <span class="close" onclick="document.getElementById('myModal31').style.display='none'">&times;</span>
+                      <div class="modal-content" id="img31">
+                        <div>
+                          <div class="">
+                            <img src="img/Affiches/ferme.png" style="width:75%; height:75%;" alt="">
+                          </div>
+                        </div>
+                        <div style="background-color:#EDF6DE;">
+                          <h2 class="titreModal" style="color:black;">La Ferme du Major</h2>
+                          <p class="paraModal" style="color:black;">Affiche réalisé avec Canva, pour la Ferme du Major pour une information a transmettre a leur clients.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex">
+                    <img id="myImg32" src="img/Affiches/memoP.png" alt="">
+                    <div class="modal" id="myModal32">
+                      <span class="close" onclick="document.getElementById('myModal32').style.display='none'">&times;</span>
+                      <div class="modal-content" id="img32">
+                        <div>
+                          <div class="">
+                            <img src="img/Affiches/Mémo.png" style="width:75%; height:75%;" alt="">
+                          </div>
+                        </div>
+                        <div style="background-color:#9443AB;">
+                          <h2 class="titreModal" style="color:white;">Mon Mémo Personnel</h2>
+                          <p class="paraModal" style="color:white;">Affiche réalisé avec Canva, pour un projet fictif d'une refonte du site Web Ageval. </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex">
+                    <img id="myImg33" src="img/Affiches/depliantP.png" alt="">
+                    <div class="modal" id="myModal33">
+                      <span class="close" onclick="document.getElementById('myModal33').style.display='none'">&times;</span>
+                      <div class="modal-content" id="img33">
+                        <div style="background-color:#EDF6DE;">
+                          <h2 class="titreModal" style="color:black;">Atelier Numérique</h2>
+                          <p class="paraModal" style="color:black;">Dépliant réalisé pour l'Atelier Numérique qui est un chantier d'insertion au sien de l'Association Ageval. Présentation du programme de ce chantier, public ciblé, les objectifs et les plus value de l'ACi. Ce projet à était réalisé avec InDesign.</p>
+                        </div>
+                        <div >
+                          <div class="">
+                            <img src="img/Affiches/depliant1.png" style="width:100%; height:100%;" alt="">
+                          </div>
+                        </div>
+                        <div class="">  </div>
+                        <div >
+                          <div class="">
+                            <img src="img/Affiches/depliant2.png" style="width:100%; height:100%;" alt="">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex">
+                    <img id="myImg36" src="img/powerpoint/powerP.png" alt="">
+                    <div class="modal" id="myModal36">
+                      <span class="close" onclick="document.getElementById('myModal36').style.display='none'">&times;</span>
+                      <div class="modal-carrousel" id="img36">
+                        <div class="w3-contenair">
+                          <h2 style="font-family:'playlist-script'; font-size: 38px; position:relative; text-align:center;margin:20px;">PowerPoint</h2>
+                          <p style="font-size:18px; margin:20px; text-align:center; position:relative;">Refonte du powerpoint pour le service Accompagnement de l'association Ageval avec création du logo pour le service Accompagnement.</p>
+                        </div>
+                        <div class="w3-content w3-display-container" style="max-width:600px">
+                          <img class="mySlides" src="img/powerpoint/powerpoint1.png" alt="powerpoint de septembre" style="width:100%">
+                          <img class="mySlides" src="img/powerpoint/powerpoint2.png" alt="powerpoint de octobre" style="width:100%">
+                          <img class="mySlides" src="img/powerpoint/powerpoint3.png" alt="powerpoint de novembre" style="width:100%">
+                          <img class="mySlides" src="img/powerpoint/powerpoint4.png" alt="powerpoint de decembre" style="width:100%">
+                          <img class="mySlides" src="img/powerpoint/powerpoint5.png" alt="powerpoint de janvier" style="width:100%">
+                          <img class="mySlides" src="img/powerpoint/powerpoint6.png" alt="powerpoint de fevrier" style="width:100%">
+                          <img class="mySlides" src="img/powerpoint/powerpoint7.png" alt="powerpoint de mars" style="width:100%">
+                          <img class="mySlides" src="img/powerpoint/powerpoint8.png" alt="powerpoint de avril" style="width:100%">
+                          <img class="mySlides" src="img/powerpoint/powerpoint9.png" alt="powerpoint de mai" style="width:100%">
+                          <img class="mySlides" src="img/powerpoint/powerpoint10.png" alt="powerpoint de juin" style="width:100%">
+                          <img class="mySlides" src="img/powerpoint/powerpoint11.png" alt="powerpoint de juillet" style="width:100%">
+                          <img class="mySlides" src="img/powerpoint/powerpoint12.png" alt="powerpoint de août" style="width:100%">
+                          <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+                          <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex">
+                    <img id="myImg34" src="img/Affiches/personel.png" alt="Affiche personnel">
+                    <div class="modal" id="myModal34">
+                      <span class="close" onclick="document.getElementById('myModal34').style.display='none'">&times;</span>
+                      <div class="modal-content" id="img34">
+                        <div>
+                          <div class="">
+                            <img src="img/Affiches/perso.png" style="width:75%; height:75%;" alt="">
+                          </div>
+                        </div>
+                        <div style="background-color:#9443AB;">
+                          <h2 class="titreModal" style="color:white;">Festival Tattoo</h2>
+                          <p class="paraModal" style="color:white;">Affiche fictif réalisé lors d'un exercice dans le cadre de l'Atelier Numérique. Je devais réalisé une affiche sur le théme que je souhaitais avec Photoshop.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="flex">
+                    <img id="myImg35" src="img/Affiches/louP.png" alt="">
+                    <div class="modal" id="myModal35">
+                      <span class="close" onclick="document.getElementById('myModal35').style.display='none'">&times;</span>
+                      <div class="modal-content" id="img35">
+                        <div >
+                          <div class="">
+                            <img src="img/Affiches/decroue-laura-affiche-perso-1.jpg" style="width:75%; height:75%;" alt="">
+                          </div>
+                        </div>
+                        <div style="background-color:#EDF6DE">
+                          <h2 class="titreModal" style="color:black;">Tattoo Convention</h2>
+                          <p class="paraModal" style="color:black;">Affiche fictif réalisé lors d'un exercice dans le cadre de l'Atelier Numérique. Je devais réalisé une affiche sur le théme que je souhaitais avec Photoshop.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
 
-
-            <div class="w3-container" style="margin:75px 0;">
-              <h2 class="titre">Templete Mail Noël</h2>
-
-              <div style="text-align:center;">
-                <img class="respont" src="img/mockup.jpg"
-                onclick="document.getElementById('modal01').style.display='block'">
-              </div>
-
-
+            <div class="flex">
+              <img class="respont" src="img/mockup.jpg"
+              onclick="document.getElementById('modal01').style.display='block'">
+              <p>Templete Mail Noël</p>
               <div id="modal01" class="w3-modal" onclick="this.style.display='none'" bgcolor="#DCDCDC" style="	margin: 0; padding: 20px 0 30px 0; border: 0; line-height: 1; background-color: #DCDCDC !important;">
                 <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
                 <div class="w3-modal-content w3-animate-zoom" style="margin: 0 auto;">
@@ -517,294 +405,294 @@
                             <td style="background-size:cover" background="https://drive.google.com/uc?export=view&id=1fHfIWgBBND5f4mQBuZEbknQjdvz4KFsc" bgcolor="#d60441" width="600" height="564" valign="top">
                               <!--[if gte mso 9]>
                               <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:450pt;height:423pt;">
-                                <v:fill type="tile" src="https://drive.google.com/uc?export=view&id=1fHfIWgBBND5f4mQBuZEbknQjdvz4KFsc" color="#d60441" />
-                                <v:textbox inset="0,0,0,0">
+                              <v:fill type="tile" src="https://drive.google.com/uc?export=view&id=1fHfIWgBBND5f4mQBuZEbknQjdvz4KFsc" color="#d60441" />
+                              <v:textbox inset="0,0,0,0">
                               <![endif]-->
                               <p style="margin:0px 0px 20px 0px">&#160;</p>
 
 
 
-                                <p style="margin:250px 70px 0px 70px; text-align: center; color: white; font-family: 'Raleway', cursive; font-size: 24px; ">Toute l'équipe de l'Atelier Numérique souhaiterait vous adresser un petit mot en cette joyeuse fête.</p>
+                              <p style="margin:250px 70px 0px 70px; text-align: center; color: white; font-family: 'Raleway', cursive; font-size: 24px; ">Toute l'équipe de l'Atelier Numérique souhaiterait vous adresser un petit mot en cette joyeuse fête.</p>
 
-                            <!--[if gte mso 9]>
+                              <!--[if gte mso 9]>
                             </v:textbox>
-                            </v:rect>
-                            <![endif]-->
-                            </td>
+                          </v:rect>
+                          <![endif]-->
+                        </td>
 
 
 
 
 
-                          </tr>
-                        </table cellpadding="0" cellspacing="0"> <!--fin head-->
-                      </td>
-                    </tr>
-                    <tr>
-                      <td>
-                        <table cellpadding="0" cellspacing="0" id="templateBody" style="width: 100%; margin-top: 10px; border-collapse: collapse; border-spacing: 0;"> <!--body-->
-                          <tr>
-                            <td style="text-align:center">
-                              <img style="" src="https://drive.google.com/uc?export=view&id=1S_v46hWboIw88zsGK56qfpIGISTw03o4" alt="">
-                            </td>
-                            <td style="width: 50%;">
-                              <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
-                                <tr>
-                                  <td>
-                                    <img src="https://drive.google.com/uc?export=view&id=1mmnSM4YmCI1zy3mxFiheJrzy8J2-LT-5" alt="Virgil Deljehier">
-                                  </td>
-                                  <td class="absol">
-                                    <!-- image titre -->
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
-                                    <div class="blockquoteartdevivre"><h8>“</h8>L'esprit de Noël, c'est la chaleur d'un foyer, le rire des enfants et le plaisir du partage. Joyeux Noël à vous tous<h8>„</h8></div>
-                                  </td>
-                                </tr>
-                              </table cellpadding="0" cellspacing="0">
-                            </td>
-                          </tr>
+                      </tr>
+                    </table cellpadding="0" cellspacing="0"> <!--fin head-->
+                  </td>
+                </tr>
+                <tr>
+                  <td>
+                    <table cellpadding="0" cellspacing="0" id="templateBody" style="width: 100%; margin-top: 10px; border-collapse: collapse; border-spacing: 0;"> <!--body-->
+                      <tr>
+                        <td style="text-align:center">
+                          <img style="" src="https://drive.google.com/uc?export=view&id=1S_v46hWboIw88zsGK56qfpIGISTw03o4" alt="">
+                        </td>
+                        <td style="width: 50%;">
+                          <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
+                            <tr>
+                              <td>
+                                <img src="https://drive.google.com/uc?export=view&id=1mmnSM4YmCI1zy3mxFiheJrzy8J2-LT-5" alt="Virgil Deljehier">
+                              </td>
+                              <td class="absol">
+                                <!-- image titre -->
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
+                                <div class="blockquoteartdevivre"><h8>“</h8>L'esprit de Noël, c'est la chaleur d'un foyer, le rire des enfants et le plaisir du partage. Joyeux Noël à vous tous<h8>„</h8></div>
+                              </td>
+                            </tr>
+                          </table cellpadding="0" cellspacing="0">
+                        </td>
+                      </tr>
 
-                          <tr>
-                            <td colspan="2" style="text-align:center;">
-                              <!-- image flocon -->
-                              <img style="width: 20%; margin: 40px 0px;" src="https://drive.google.com/uc?export=view&id=1lFDBQEOYnCX4VBc-kO64B0SiAZpQM2ZV" alt="">
-                            </td>
-                          </tr>
+                      <tr>
+                        <td colspan="2" style="text-align:center;">
+                          <!-- image flocon -->
+                          <img style="width: 20%; margin: 40px 0px;" src="https://drive.google.com/uc?export=view&id=1lFDBQEOYnCX4VBc-kO64B0SiAZpQM2ZV" alt="">
+                        </td>
+                      </tr>
 
-                          <tr>
-                            <td style="width: 50%;">
-                              <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
-                                <tr>
-                                  <td>
-                                    <img src="https://drive.google.com/uc?export=view&id=1IuChv6aiBacgtVg0d1Q0GgyE7Rl9u6mb" alt="Aurelien Anglas">
-                                  </td>
-                                  <td class="absol">
-                                    <!-- image titre -->
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
-                                    <div class="blockquoteartdevivre"><h8>“</h8>Que Noël soit l'annonce d'un bonheur grandissant dans la joie et la paix!<h8>„</h8></div>
-                                  </td>
-                                </tr>
-                              </table cellpadding="0" cellspacing="0">
-                            </td>
-                            <td style="width: 50%;text-align:center;">
-                              <img src="https://drive.google.com/uc?export=view&id=1760z4j4KdXDqcRf9ih3nrj1wiK1OLXCd" alt="">
-                            </td>
-                          </tr>
+                      <tr>
+                        <td style="width: 50%;">
+                          <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
+                            <tr>
+                              <td>
+                                <img src="https://drive.google.com/uc?export=view&id=1IuChv6aiBacgtVg0d1Q0GgyE7Rl9u6mb" alt="Aurelien Anglas">
+                              </td>
+                              <td class="absol">
+                                <!-- image titre -->
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
+                                <div class="blockquoteartdevivre"><h8>“</h8>Que Noël soit l'annonce d'un bonheur grandissant dans la joie et la paix!<h8>„</h8></div>
+                              </td>
+                            </tr>
+                          </table cellpadding="0" cellspacing="0">
+                        </td>
+                        <td style="width: 50%;text-align:center;">
+                          <img src="https://drive.google.com/uc?export=view&id=1760z4j4KdXDqcRf9ih3nrj1wiK1OLXCd" alt="">
+                        </td>
+                      </tr>
 
-                          <tr>
-                            <td colspan="2" style="text-align:center;">
-                              <!-- image flocon -->
-                              <img style="width: 20%; margin: 40px 0px;" src="https://drive.google.com/uc?export=view&id=1lFDBQEOYnCX4VBc-kO64B0SiAZpQM2ZV" alt="">
-                            </td>
-                          </tr>
+                      <tr>
+                        <td colspan="2" style="text-align:center;">
+                          <!-- image flocon -->
+                          <img style="width: 20%; margin: 40px 0px;" src="https://drive.google.com/uc?export=view&id=1lFDBQEOYnCX4VBc-kO64B0SiAZpQM2ZV" alt="">
+                        </td>
+                      </tr>
 
-                          <tr>
-                            <td style="width: 50%; text-align:center;">
-                              <img src="https://drive.google.com/uc?export=view&id=14LGZm_uFK4VZEjR03Eay_YSkvEB7KzdJ" alt="">
-                            </td>
-                            <td style="width: 50%;">
-                              <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
-                                <tr>
-                                  <td>
-                                    <img src="https://drive.google.com/uc?export=view&id=1rifGsiy5GZs_7FE7VXE8JoB-2AnXfZyw" alt="Benoit Baudhuin">
-                                  </td>
-                                  <td class="absol">
-                                    <!-- image titre -->
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
-                                    <div class="blockquoteartdevivre"><h8>“</h8>Tu vois ça ?
-                  C'est une carte de Noël.
-                  Et pourquoi on envoie une carte de Noël?
-                  Pour dire Joyeux Noël.
-                  Alors je me lance : " Joyeux Noël !"
-                  <h8>„</h8></div>
-                                  </td>
-                                </tr>
-                              </table cellpadding="0" cellspacing="0">
-                            </td>
-                          </tr>
+                      <tr>
+                        <td style="width: 50%; text-align:center;">
+                          <img src="https://drive.google.com/uc?export=view&id=14LGZm_uFK4VZEjR03Eay_YSkvEB7KzdJ" alt="">
+                        </td>
+                        <td style="width: 50%;">
+                          <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
+                            <tr>
+                              <td>
+                                <img src="https://drive.google.com/uc?export=view&id=1rifGsiy5GZs_7FE7VXE8JoB-2AnXfZyw" alt="Benoit Baudhuin">
+                              </td>
+                              <td class="absol">
+                                <!-- image titre -->
+                              </td>
+                            </tr>
+                            <tr>
+                              <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
+                                <div class="blockquoteartdevivre"><h8>“</h8>Tu vois ça ?
+                                  C'est une carte de Noël.
+                                  Et pourquoi on envoie une carte de Noël?
+                                  Pour dire Joyeux Noël.
+                                  Alors je me lance : " Joyeux Noël !"
+                                  <h8>„</h8></div>
+                                </td>
+                              </tr>
+                            </table cellpadding="0" cellspacing="0">
+                          </td>
+                        </tr>
 
-                          <tr>
-                            <td colspan="2" style="text-align:center;">
-                              <!-- image flocon -->
-                              <img style="width: 20%; margin: 40px 0px;" src="https://drive.google.com/uc?export=view&id=1lFDBQEOYnCX4VBc-kO64B0SiAZpQM2ZV" alt="">
-                            </td>
-                          </tr>
+                        <tr>
+                          <td colspan="2" style="text-align:center;">
+                            <!-- image flocon -->
+                            <img style="width: 20%; margin: 40px 0px;" src="https://drive.google.com/uc?export=view&id=1lFDBQEOYnCX4VBc-kO64B0SiAZpQM2ZV" alt="">
+                          </td>
+                        </tr>
 
-                          <tr>
-                            <td style="width: 50%;">
-                              <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
-                                <tr>
-                                  <td>
-                                    <img src="https://drive.google.com/uc?export=view&id=1tMUTLzV0EI0k7fY6rbXjaZSBlbXHqlxt" alt="Laura Decroue">
-                                  </td>
-                                  <td class="absol">
-                                    <!-- image titre -->
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
-                                    <div class="blockquoteartdevivre"><h8>“</h8>Malgré cette année un peu difficile. Je vous souhaite un joyeux noël !<h8>„</h8></div>
-                                  </td>
-                                </tr>
-                              </table cellpadding="0" cellspacing="0">
-                            </td>
-                            <td style="width: 50%;text-align:center;">
-                              <img src="https://drive.google.com/uc?export=view&id=1x0kXNnhLWDEbhoc7iviVCBSOIwmcSUfU" alt="">
-                            </td>
-                          </tr>
+                        <tr>
+                          <td style="width: 50%;">
+                            <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
+                              <tr>
+                                <td>
+                                  <img src="https://drive.google.com/uc?export=view&id=1tMUTLzV0EI0k7fY6rbXjaZSBlbXHqlxt" alt="Laura Decroue">
+                                </td>
+                                <td class="absol">
+                                  <!-- image titre -->
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
+                                  <div class="blockquoteartdevivre"><h8>“</h8>Malgré cette année un peu difficile. Je vous souhaite un joyeux noël !<h8>„</h8></div>
+                                </td>
+                              </tr>
+                            </table cellpadding="0" cellspacing="0">
+                          </td>
+                          <td style="width: 50%;text-align:center;">
+                            <img src="https://drive.google.com/uc?export=view&id=1x0kXNnhLWDEbhoc7iviVCBSOIwmcSUfU" alt="">
+                          </td>
+                        </tr>
 
-                          <tr>
-                            <td colspan="2" style="text-align:center;">
-                              <!-- image flocon -->
-                              <img style="width: 20%; margin: 40px 0px;" src="https://drive.google.com/uc?export=view&id=1lFDBQEOYnCX4VBc-kO64B0SiAZpQM2ZV" alt="">
-                            </td>
-                          </tr>
+                        <tr>
+                          <td colspan="2" style="text-align:center;">
+                            <!-- image flocon -->
+                            <img style="width: 20%; margin: 40px 0px;" src="https://drive.google.com/uc?export=view&id=1lFDBQEOYnCX4VBc-kO64B0SiAZpQM2ZV" alt="">
+                          </td>
+                        </tr>
 
-                          <tr>
-                            <td style="width: 50%;text-align:center;">
-                              <img src="https://drive.google.com/uc?export=view&id=1Z4UFtlEtpSQ-Bl7hjDmRZ5D7NOJ_OVvy" alt="">
-                            </td>
-                            <td style="width: 50%;">
-                              <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
-                                <tr>
-                                  <td>
-                                    <img src="https://drive.google.com/uc?export=view&id=1BSbV8uiNKZL3bwgfVq2zZsp9qjJyMTdc" alt="Elodie Dupont">
-                                  </td>
-                                  <td class="absol">
-                                    <!-- image titre -->
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
-                                    <div class="blockquoteartdevivre"><h8>“</h8>Par ces quelques mots je vous souhaite de Joyeuse Noël que votre  Noël soit beau et un grand moment de plaisir et joie.<h8>„</h8></div>
-                                  </td>
-                                </tr>
-                              </table cellpadding="0" cellspacing="0">
-                            </td>
-                          </tr>
+                        <tr>
+                          <td style="width: 50%;text-align:center;">
+                            <img src="https://drive.google.com/uc?export=view&id=1Z4UFtlEtpSQ-Bl7hjDmRZ5D7NOJ_OVvy" alt="">
+                          </td>
+                          <td style="width: 50%;">
+                            <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
+                              <tr>
+                                <td>
+                                  <img src="https://drive.google.com/uc?export=view&id=1BSbV8uiNKZL3bwgfVq2zZsp9qjJyMTdc" alt="Elodie Dupont">
+                                </td>
+                                <td class="absol">
+                                  <!-- image titre -->
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
+                                  <div class="blockquoteartdevivre"><h8>“</h8>Par ces quelques mots je vous souhaite de Joyeuse Noël que votre  Noël soit beau et un grand moment de plaisir et joie.<h8>„</h8></div>
+                                </td>
+                              </tr>
+                            </table cellpadding="0" cellspacing="0">
+                          </td>
+                        </tr>
 
-                          <tr>
-                            <td colspan="2" style="text-align:center;">
-                              <!-- image flocon -->
-                              <img style="width: 20%; margin: 40px 0px;" src="https://drive.google.com/uc?export=view&id=1lFDBQEOYnCX4VBc-kO64B0SiAZpQM2ZV" alt="">
-                            </td>
-                          </tr>
+                        <tr>
+                          <td colspan="2" style="text-align:center;">
+                            <!-- image flocon -->
+                            <img style="width: 20%; margin: 40px 0px;" src="https://drive.google.com/uc?export=view&id=1lFDBQEOYnCX4VBc-kO64B0SiAZpQM2ZV" alt="">
+                          </td>
+                        </tr>
 
-                          <tr>
-                            <td style="width: 50%;">
-                              <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
-                                <tr>
-                                  <td>
-                                    <img src="https://drive.google.com/uc?export=view&id=10iz54dFdlVhKBCFDb8jGxgssWNDzkcK4" alt="Guillaume Keerhem">
-                                  </td>
-                                  <td class="absol">
-                                    <!-- image titre -->
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
-                                    <div class="blockquoteartdevivre"><h8>“</h8>Noël... Les repas de famille, le sapin, la neige ... mais aussi les cadeaux!! En espérant que le Père Noël soit généreux avec vous!! Joyeux Noël a tous!!<h8>„</h8></div>
-                                  </td>
-                                </tr>
-                              </table cellpadding="0" cellspacing="0">
-                            </td>
-                            <td style="width: 50%;text-align:center">
-                              <img src="https://drive.google.com/uc?export=view&id=1m952kv8avSPTiF2jStbIUdw82MN25fl2" alt="">
-                            </td>
-                          </tr>
+                        <tr>
+                          <td style="width: 50%;">
+                            <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
+                              <tr>
+                                <td>
+                                  <img src="https://drive.google.com/uc?export=view&id=10iz54dFdlVhKBCFDb8jGxgssWNDzkcK4" alt="Guillaume Keerhem">
+                                </td>
+                                <td class="absol">
+                                  <!-- image titre -->
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
+                                  <div class="blockquoteartdevivre"><h8>“</h8>Noël... Les repas de famille, le sapin, la neige ... mais aussi les cadeaux!! En espérant que le Père Noël soit généreux avec vous!! Joyeux Noël a tous!!<h8>„</h8></div>
+                                </td>
+                              </tr>
+                            </table cellpadding="0" cellspacing="0">
+                          </td>
+                          <td style="width: 50%;text-align:center">
+                            <img src="https://drive.google.com/uc?export=view&id=1m952kv8avSPTiF2jStbIUdw82MN25fl2" alt="">
+                          </td>
+                        </tr>
 
-                          <tr>
-                            <td colspan="2" style="text-align:center;">
-                              <!-- image flocon -->
-                              <img style="width: 20%; margin: 40px 0px;" src="https://drive.google.com/uc?export=view&id=1lFDBQEOYnCX4VBc-kO64B0SiAZpQM2ZV" alt="">
-                            </td>
-                          </tr>
+                        <tr>
+                          <td colspan="2" style="text-align:center;">
+                            <!-- image flocon -->
+                            <img style="width: 20%; margin: 40px 0px;" src="https://drive.google.com/uc?export=view&id=1lFDBQEOYnCX4VBc-kO64B0SiAZpQM2ZV" alt="">
+                          </td>
+                        </tr>
 
-                          <tr>
-                            <td style="width: 50%;text-align:center">
-                              <img src="https://drive.google.com/uc?export=view&id=1xZYdaIPB_Cq-6K_fvUdju080wJ7jwGCY" alt="">
-                            </td>
-                            <td style="width: 50%;">
-                              <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
-                                <tr>
-                                  <td>
-                                    <img src="https://drive.google.com/uc?export=view&id=1QcHb56pyH7_hv8YN4lcGATvCp9d0rCqp" alt="Christopher Mocquais">
-                                  </td>
-                                  <td class="absol">
-                                    <!-- image titre -->
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
-                                    <div class="blockquoteartdevivre"><h8>“</h8>Que ces fêtes soient un moment de joie et de bonheur en famille. Que vos cadeaux soient ceux que vous espériez. Joyeux Noël.<h8>„</h8></div>
-                                  </td>
-                                </tr>
-                              </table cellpadding="0" cellspacing="0">
-                            </td>
-                          </tr>
+                        <tr>
+                          <td style="width: 50%;text-align:center">
+                            <img src="https://drive.google.com/uc?export=view&id=1xZYdaIPB_Cq-6K_fvUdju080wJ7jwGCY" alt="">
+                          </td>
+                          <td style="width: 50%;">
+                            <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
+                              <tr>
+                                <td>
+                                  <img src="https://drive.google.com/uc?export=view&id=1QcHb56pyH7_hv8YN4lcGATvCp9d0rCqp" alt="Christopher Mocquais">
+                                </td>
+                                <td class="absol">
+                                  <!-- image titre -->
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
+                                  <div class="blockquoteartdevivre"><h8>“</h8>Que ces fêtes soient un moment de joie et de bonheur en famille. Que vos cadeaux soient ceux que vous espériez. Joyeux Noël.<h8>„</h8></div>
+                                </td>
+                              </tr>
+                            </table cellpadding="0" cellspacing="0">
+                          </td>
+                        </tr>
 
-                          <tr>
-                            <td colspan="2" style="text-align:center;">
-                              <!-- image flocon -->
-                              <img style="width: 20%; margin: 40px 0px;" src="https://drive.google.com/uc?export=view&id=1lFDBQEOYnCX4VBc-kO64B0SiAZpQM2ZV" alt="">
-                            </td>
-                          </tr>
+                        <tr>
+                          <td colspan="2" style="text-align:center;">
+                            <!-- image flocon -->
+                            <img style="width: 20%; margin: 40px 0px;" src="https://drive.google.com/uc?export=view&id=1lFDBQEOYnCX4VBc-kO64B0SiAZpQM2ZV" alt="">
+                          </td>
+                        </tr>
 
-                          <tr>
-                            <td style="width: 50%;">
-                              <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
-                                <tr>
-                                  <td>
-                                    <img src="https://drive.google.com/uc?export=view&id=1RQYpwpnpRwaLItgj_KTwJ1JUx06CLgFQ" alt="Danny Poizot">
-                                  </td>
-                                  <td class="absol">
-                                    <!-- image titre -->
-                                  </td>
-                                </tr>
-                                <tr>
-                                  <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
-                                    <div class="blockquoteartdevivre"><h8>“</h8>Un joyeux Noël rock'n'roll oh yeah !!<h8>„</h8></div>
-                                  </td>
-                                </tr>
-                              </table cellpadding="0" cellspacing="0">
-                            </td>
-                            <td style="width: 50%;text-align:center;">
-                              <img src="https://drive.google.com/uc?export=view&id=1LuREsXhXK37J1OzMFb0OpMcy4ELe2lwb" alt="">
-                            </td>
-                          </tr>
-                          <!-- <tr>
-                            <td colspan="2"><img style="width: 100%; display:block; position: relative; top: 60px;" src="img/footer.png" alt="SapinFooter"></td>
-                          </tr> -->
-                        </table cellpadding="0" cellspacing="0"> <!--fin body-->
-                      </td>
-                    </tr>
-                    <tr>
-                      <td background="https://drive.google.com/uc?export=view&id=1lf1T0MXgTcHvWReURW-euz_JpsTIUvrE" bgcolor="#ffffff" width="600" height="254" valign="top">
-                        <!--[if gte mso 9]>
-                        <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:450pt;height:190.5pt;">
-                        <v:fill type="tile" src="https://drive.google.com/uc?export=view&id=1lf1T0MXgTcHvWReURW-euz_JpsTIUvrE" color="#ffffff" />
-                        <v:textbox inset="0,0,0,0">
-                        <![endif]-->
-                        <div>
-                        </div>
-                          <p style="margin:75px 0px 130px 0px">&#160;</p>
+                        <tr>
+                          <td style="width: 50%;">
+                            <table cellpadding="0" cellspacing="0" class="relat" style="position: relative; width: 100%; border-collapse: collapse; border-spacing: 0;">
+                              <tr>
+                                <td>
+                                  <img src="https://drive.google.com/uc?export=view&id=1RQYpwpnpRwaLItgj_KTwJ1JUx06CLgFQ" alt="Danny Poizot">
+                                </td>
+                                <td class="absol">
+                                  <!-- image titre -->
+                                </td>
+                              </tr>
+                              <tr>
+                                <td style="text-align:center; font-size: 16px; font-family: 'Raleway', sans-serif; padding: 0 25px;">
+                                  <div class="blockquoteartdevivre"><h8>“</h8>Un joyeux Noël rock'n'roll oh yeah !!<h8>„</h8></div>
+                                </td>
+                              </tr>
+                            </table cellpadding="0" cellspacing="0">
+                          </td>
+                          <td style="width: 50%;text-align:center;">
+                            <img src="https://drive.google.com/uc?export=view&id=1LuREsXhXK37J1OzMFb0OpMcy4ELe2lwb" alt="">
+                          </td>
+                        </tr>
+                        <!-- <tr>
+                        <td colspan="2"><img style="width: 100%; display:block; position: relative; top: 60px;" src="img/footer.png" alt="SapinFooter"></td>
+                      </tr> -->
+                    </table cellpadding="0" cellspacing="0"> <!--fin body-->
+                  </td>
+                </tr>
+                <tr>
+                  <td background="https://drive.google.com/uc?export=view&id=1lf1T0MXgTcHvWReURW-euz_JpsTIUvrE" bgcolor="#ffffff" width="600" height="254" valign="top">
+                    <!--[if gte mso 9]>
+                    <v:rect xmlns:v="urn:schemas-microsoft-com:vml" fill="true" stroke="false" style="width:450pt;height:190.5pt;">
+                    <v:fill type="tile" src="https://drive.google.com/uc?export=view&id=1lf1T0MXgTcHvWReURW-euz_JpsTIUvrE" color="#ffffff" />
+                    <v:textbox inset="0,0,0,0">
+                    <![endif]-->
+                    <div>
+                    </div>
+                    <p style="margin:75px 0px 130px 0px">&#160;</p>
 
-                          <p style="margin:0px; width: 360px; display:inline; text-align:center; font-family: 'Raleway', sans-serif">Copyright © Atelier Numérique Association AGEVAL 2020-2021</p>
-                          <!-- <p style="margin:0px; width: 59%; display:inline; text-align:center; font-family: 'Raleway', sans-serif"></p> -->
+                    <p style="margin:0px; width: 360px; display:inline; text-align:center; font-family: 'Raleway', sans-serif">Copyright © Atelier Numérique Association AGEVAL 2020-2021</p>
+                    <!-- <p style="margin:0px; width: 59%; display:inline; text-align:center; font-family: 'Raleway', sans-serif"></p> -->
 
-                        <!--[if gte mso 9]>
-                        </v:textbox>
-                        </v:rect>
-                        <![endif]-->
-                      </td>
+                    <!--[if gte mso 9]>
+                  </v:textbox>
+                </v:rect>
+                <![endif]-->
+                    </td>
 
                     </tr>
                   </table cellpadding="0" cellspacing="0"> <!--fin corps template-->
@@ -812,6 +700,238 @@
 
                 </div>
               </div>
+            </div>
+
+            <div class="flex">
+              <img id="myImg4" src="img/Divers/tete.png" alt="oeuvre en Exposition a paris et photo d'une plage et son ciel">
+              <p>Photographies</p>
+              <div class="modal" id="myModal4">
+                <span class="close" onclick="document.getElementById('myModal4').style.display='none'">&times;</span>
+                <div id="img04" class="modal-content">
+                  <div class="flex">
+                    <img id="myImg40"src="img/Divers/img1.jpg"  alt="">
+                    <p>Divers</p>
+                    <div class="modal" id="myModal40">
+                      <span class="close" onclick="document.getElementById('myModal40').style.display='none'" >&times;</span>
+                      <div id="img40" class="modal-carrousel">
+                        <div class="rowcol">
+                          <div class="column">
+                            <img src="img/Divers/img1.jpg" alt="oeuvre exposait sur Paris" onclick="myFunction1(this);">
+                          </div>
+                          <div class="column">
+                            <img src="img/Divers/img3.jpg" alt="photo prise sur un plage" onclick="myFunction1(this);">
+                          </div>
+                        </div>
+                        <div class="containers">
+                          <img id="expandedImg" >
+                          <div id="imgtext"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex">
+                    <img id="myImg41" src="img/Street-Art/img2.jpg" style="height:100%;" alt="">
+                    <p>Strees-Art</p>
+                    <div class="modal" id="myModal41">
+                      <span class="close" onclick="document.getElementById('myModal41').style.display='none'">&times</span>
+                      <div class="modal-carrousel" id="img41">
+                        <div class="rowcol">
+                          <div class="column">
+                            <img src="img/Street-Art/img2.jpg" alt="oeuvre street-art sur Onnaing" onclick="myFunction2(this);">
+                          </div>
+                          <div class="column">
+                            <img src="img/Street-Art/img3.jpg" alt="oeuvre street-art sur Onnaing" onclick="myFunction2(this);">
+                          </div>
+                        </div>
+                        <div class="containers">
+                          <img id="expandedImg1">
+                          <div id="imgtext1"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex">
+                    <img id="myImg42" src="img/Rue-Jardin/img3.jpg" style="height:100%;" alt="">
+                    <p>Ruelle-Arbre</p>
+                    <div class="modal" id="myModal42">
+                      <span class="close" onclick="document.getElementById('myModal42').style.display='none'">&times;</span>
+                      <div class="modal-carrousel" id="img42">
+                        <div class="rowcol">
+                          <div class="column">
+                            <img src="img/Rue-Jardin/img3.jpg" alt="" onclick="myFunction3(this);">
+                          </div>
+                          <div class="column">
+                            <img src="img/Rue-Jardin/img4.jpg" alt="" onclick="myFunction3(this);">
+                          </div>
+                          <div class="column">
+                            <img src="img/Rue-Jardin/img10.jpg" alt="" onclick="myFunction3(this);">
+                          </div>
+                        </div>
+                        <div class="containers">
+                          <img id="expandedImg2">
+                          <div id="imgtext2"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex">
+                    <img id="myImg43" src="img/Fleurs-Fruits/img3.jpg" style="height:100%;" alt="">
+                    <p>Fleurs</p>
+                    <div class="modal" id="myModal43">
+                      <span class="close" onclick="document.getElementById('myModal43').style.display='none'">&times;</span>
+                      <div class="modal-carrousel" id="img43">
+                        <div class="rowcol">
+                          <div class="column">
+                            <img class="mySlides5" src="img/Fleurs-Fruits/img2.jpg" alt="" onclick="myFunction5(this);" style="width:100%">
+                          </div>
+                          <div class="column">
+                            <img class="mySlides5" src="img/Fleurs-Fruits/img3.jpg" alt="" onclick="myFunction5(this);" style="width:100%">
+                          </div>
+                          <div class="column">
+                            <img class="mySlides5" src="img/Fleurs-Fruits/img4.jpg" alt="" onclick="myFunction5(this);" style="width:100%">
+                          </div>
+                          <div class="column">
+                            <img class="mySlides5" src="img/Fleurs-Fruits/img5.jpg" alt="" onclick="myFunction5(this);" style="width:100%">
+                          </div>
+                          <div class="column">
+                            <img class="mySlides5" src="img/Fleurs-Fruits/img6.jpg" alt="" onclick="myFunction5(this);" style="width:100%">
+                          </div>
+                          <div class="column">
+                            <img class="mySlides5" src="img/Fleurs-Fruits/img7.jpg" alt="" onclick="myFunction5(this);" style="width:100%">
+                          </div>
+                          <div class="column">
+                            <img class="mySlides5" src="img/Fleurs-Fruits/img8.jpg" alt="" onclick="myFunction5(this);" style="width:100%">
+                          </div>
+                          <div class="column">
+                            <img class="mySlides5" src="img/Fleurs-Fruits/img9.jpg" alt="" onclick="myFunction5(this);" style="width:100%">
+                          </div>
+                        </div>
+                        <div class="containers">
+                          <img id="expandedImg4">
+                          <div id="imgtext4">
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="flex">
+                    <img id="myImg44" src="img/Animaux-Insectes/img3.jpg" style="height:100%;" alt="">
+                    <p>Insectes</p>
+                    <div class="modal" id="myModal44">
+                      <span class="close" onclick="document.getElementById('myModal44').style.display='none'">&times;</span>
+                      <div class="modal-carrousel" id="img44">
+                        <div class="rowcol">
+                          <div class="column">
+                            <img src="img/Animaux-Insectes/img2.jpg" alt="" onclick="myFunction4(this);">
+                          </div>
+                          <div class="column">
+                            <img src="img/Animaux-Insectes/img3.jpg" alt="" onclick="myFunction4(this);">
+                          </div>
+                        </div>
+                        <div class="containers">
+                          <img id="expandedImg3">
+                          <div id="imgtext3"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="flex">
+              <img  id="myImg5" src="img/Dessins/des.png" alt="Divers dessins effectuer pendant mes temps libre" >
+              <p>Dessins</p>
+              <div class="modal" id="myModal5">
+                <span class="close" onclick="document.getElementById('myModal5').style.display='none'">&times;</span>
+                <div id="img5" class="modal-carrousel">
+                  <div id="wrapper">
+                    <div id="carousel">
+                      <div id="content">
+                        <img class="item" src="img/Dessins/img1.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img2.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img3.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img4.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img5.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img6.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img7.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img8.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img9.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img10.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img11.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img12.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img13.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img14.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img15.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img16.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img17.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img18.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img19.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img20.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img21.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img22.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img23.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img24.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img25.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img26.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img27.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img28.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img29.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img30.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img31.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img32.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img33.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img34.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img35.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img36.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img37.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img38.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img39.jpg" alt="" >
+                        <img class="item" src="img/Dessins/img40.jpg" alt="" >
+                      </div>
+                    </div>
+                    <button id="prev">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        >
+                        <path fill="none" d="M0 0h24v24H0V0z" />
+                        <path d="M15.61 7.41L14.2 6l-6 6 6 6 1.41-1.41L11.03 12l4.58-4.59z" />
+                      </svg>
+                    </button>
+                    <button id="next">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        >
+                        <path fill="none" d="M0 0h24v24H0V0z" />
+                        <path d="M10.02 6L8.61 7.41 13.19 12l-4.58 4.59L10.02 18l6-6-6-6z" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+          </section>
+
+
+          <section class="projet" id="projet" style="display:block;">
+
+
+
+
+
+
             </div>
           </section>
 
@@ -829,9 +949,7 @@
             </div>
           </section>
 
-        </div>
-    </div>
-
+      </div>
     <footer>
       <div class="mention">
         <p>Decroue Laura 2020 • Tous droits réservé.</p>
@@ -843,6 +961,11 @@
 
       </div>
     </footer>
-    <script src="js/nav.js"></script>
+    <!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="js/fiche.js"></script>
+    <!-- <script src="js/fiche.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script scr="js/bootstrap.bundle.min.js">  </script> -->
   </body>
 </html>
